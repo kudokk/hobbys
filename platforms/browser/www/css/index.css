@@ -1,0 +1,250 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+ /*  HTML5 display-role reset for older browsers
+*/
+
+ article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+ body {
+line-height: 1;
+}
+
+ ol, ul {
+list-style: none;
+}
+
+ blockquote, q {
+quotes: none;
+}
+
+ blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+
+ table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+ .start {
+  padding-top: 80px;
+}
+
+ .start__img {
+    height:50px;
+    width:225px;
+  }
+
+ .start__app {
+    text-align:center;
+    padding:180px 0px 0px 0px;
+  }
+
+ .start__event {
+    background-color:#EFAA5B;
+    border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    padding:10px 0px;
+    text-align: center;
+  }
+
+ .questArea {
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+
+ .quest {
+  display: table;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  max-width: 75%;
+}
+
+ .quest__img {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+  }
+
+ .condidate {
+  margin-top: 40px;
+}
+
+ .condidate__title {
+    font-size: 18px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+  }
+
+ .condidate__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+ .condidate__item {
+    text-align: center;
+    width: 50%;
+    margin-bottom: 5px;
+  }
+
+ .condidate__link {
+    border: 1px solid #000;
+    border-radius: 3px;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 85%;
+  }
+
+ .condidate__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+  }
+
+ .hobbyArea {
+  background-color: #fff;
+  border-top: 1px solid #e6e6e6;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+ .hobby__title {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+
+ .hobby__item {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+ .hobby__link {
+    border: 1px solid #000;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+  }
+
+ body {
+  background-color: #F7DA71;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;
+}
+
+ /* Landscape layout (with min-width) */
+
+ @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
+        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+    }
+}
+
+ h1 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+ @keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+
+ @-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+
+ .blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+    padding: 60px 30px;
+}
+
+ .js-none {
+  display: none;
+}
+
+ .js-hidden {
+  opacity: 0;
+  max-height: 0;
+}
+
+ .js-show {
+  opacity: 1;
+  max-height: 100%;
+}

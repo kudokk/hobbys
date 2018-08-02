@@ -1,0 +1,1644 @@
+{
+  "hobbys": {
+    "hobby": [
+      {
+        "name": "映画・ドラマ鑑賞",
+        "status": {
+          "sociability": -1,
+          "collect": 0,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": 1,
+          "sport": -2,
+          "it": 1,
+          "margin": 1,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "スポーツ観戦",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": 1,
+          "selfPolishing": -2,
+          "art": -2,
+          "sport": 2,
+          "it": 0,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "梅酒作り",
+        "status": {
+          "sociability": -2,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "マッサージ",
+        "status": {
+          "sociability": 1,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": 1,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "日記",
+        "status": {
+          "sociability": -2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": 1,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "絵日記",
+        "status": {
+          "sociability": -2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "飲酒",
+        "status": {
+          "sociability": 2,
+          "collect": 1,
+          "multiPlay": 1,
+          "selfPolishing": -1,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "囲碁・将棋・オセロ・チェス",
+        "status": {
+          "sociability": 1,
+          "collect": 0,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 1,
+          "sport": 1,
+          "it": 1,
+          "margin": 1,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "英会話",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": 2,
+          "selfPolishing": 2,
+          "art": -2,
+          "sport": -2,
+          "it": 1,
+          "margin": 2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "折り紙",
+        "status": {
+          "sociability": -2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": -2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "占い",
+        "status": {
+          "sociability": 2,
+          "collect": 2,
+          "multiPlay": 1,
+          "selfPolishing": 2,
+          "art": 1,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "アロマ",
+        "status": {
+          "sociability": -2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "裁縫・編み物",
+        "status": {
+          "sociability": 1,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "ブログ",
+        "status": {
+          "sociability": 2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": 1,
+          "sport": -2,
+          "it": 2,
+          "margin": -1,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "フラワーアレンジメント",
+        "status": {
+          "sociability": 1,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "宝くじ",
+        "status": {
+          "sociability": 1,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": -2,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "ベース・ギター・ドラム",
+        "status": {
+          "sociability": 2,
+          "collect": 1,
+          "multiPlay": 1,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "ペット飼育",
+        "status": {
+          "sociability": 2,
+          "collect": -1,
+          "multiPlay": -2,
+          "selfPolishing": -2,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "プラモデル",
+        "status": {
+          "sociability": -2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": -2,
+          "art": 1,
+          "sport": -2,
+          "it": 1,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "ペーパークラフト",
+        "status": {
+          "sociability": -2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": -2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": -1,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "ミニカー",
+        "status": {
+          "sociability": -2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": -2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "ポエム・俳句",
+        "status": {
+          "sociability": 1,
+          "collect": 2,
+          "multiPlay": -1,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "ボーカロイド",
+        "status": {
+          "sociability": -2,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": 2,
+          "sport": -2,
+          "it": 2,
+          "margin": 2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "葉巻・タバコ",
+        "status": {
+          "sociability": 2,
+          "collect": 2,
+          "multiPlay": 1,
+          "selfPolishing": -2,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "絵画",
+        "status": {
+          "sociability": 2,
+          "collect": 2,
+          "multiPlay": -1,
+          "selfPolishing": -2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "電子工作・パソコン自作",
+        "status": {
+          "sociability": -2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "コスプレ・男装・女装",
+        "status": {
+          "sociability": -1,
+          "collect": 2,
+          "multiPlay": -1,
+          "selfPolishing": 0,
+          "art": 1,
+          "sport": -2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "百人一首",
+        "status": {
+          "sociability": -1,
+          "collect": 2,
+          "multiPlay": 0,
+          "selfPolishing": -2,
+          "art": -1,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "麻雀",
+        "status": {
+          "sociability": 2,
+          "collect": 1,
+          "multiPlay": 2,
+          "selfPolishing": -1,
+          "art": -2,
+          "sport": 1,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "妄想・瞑想",
+        "status": {
+          "sociability": -2,
+          "collect": -2,
+          "multiPlay": 2,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "掃除",
+        "status": {
+          "sociability": -2,
+          "collect": 0,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": 1
+        }
+      },
+      {
+        "name": "手紙",
+        "status": {
+          "sociability": 1,
+          "collect": 2,
+          "multiPlay": 2,
+          "selfPolishing": 1,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 0,
+          "costPerformance": 1
+        }
+      },
+      {
+        "name": "歴史",
+        "status": {
+          "sociability": -1,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "木工・大工・DIY",
+        "status": {
+          "sociability": 2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "youtube鑑賞",
+        "status": {
+          "sociability": -2,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": -1,
+          "art": -2,
+          "sport": -2,
+          "it": 1,
+          "margin": 1,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "動画・生放送配信(youtuber)",
+        "status": {
+          "sociability": 1,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": 1,
+          "sport": -2,
+          "it": 1,
+          "margin": 2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "筋トレ・ボディビルディング",
+        "status": {
+          "sociability": 2,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": -2,
+          "sport": 2,
+          "it": -2,
+          "margin": -1,
+          "costPerformance": 1
+        }
+      },
+      {
+        "name": "パン作り",
+        "status": {
+          "sociability": 1,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": 1,
+          "sport": -2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "ピアノ",
+        "status": {
+          "sociability": 1,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "レゴ",
+        "status": {
+          "sociability": -2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": -1,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "手品",
+        "status": {
+          "sociability": 2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "ファッション",
+        "status": {
+          "sociability": 2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "ネイルアート",
+        "status": {
+          "sociability": 1,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "掲示板",
+        "status": {
+          "sociability": 1,
+          "collect": -2,
+          "multiPlay": 1,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": -2,
+          "it": 1,
+          "margin": -2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "プログラミング",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 1,
+          "sport": -2,
+          "it": 2,
+          "margin": 2,
+          "costPerformance": 1
+        }
+      },
+      {
+        "name": "テレビ・ラジオ鑑賞",
+        "status": {
+          "sociability": 1,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": -1,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "デコアート",
+        "status": {
+          "sociability": 1,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": 1,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": 1
+        }
+      },
+      {
+        "name": "マナー習得",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "盆栽・ガーデニング",
+        "status": {
+          "sociability": 1,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": -2,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": -1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "陶芸",
+        "status": {
+          "sociability": 1,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "落語",
+        "status": {
+          "sociability": 1,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "漬物・味噌",
+        "status": {
+          "sociability": -2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": -2,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "音楽鑑賞",
+        "status": {
+          "sociability": 2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": -1,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "天体観測",
+        "status": {
+          "sociability": -2,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": -1,
+          "art": 2,
+          "sport": -2,
+          "it": 0,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "TRPG",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": 2,
+          "selfPolishing": 1,
+          "art": 2,
+          "sport": 1,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "書道・茶道・華道・着付け",
+        "status": {
+          "sociability": 2,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "手話",
+        "status": {
+          "sociability": 2,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "自己啓発",
+        "status": {
+          "sociability": 2,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "災害対策",
+        "status": {
+          "sociability": -2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": -2,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "作詞・作曲",
+        "status": {
+          "sociability": 2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": 1,
+          "margin": 2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "懸賞",
+        "status": {
+          "sociability": -2,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": -2,
+          "art": -2,
+          "sport": -2,
+          "it": 1,
+          "margin": -1,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "ウクレレ",
+        "status": {
+          "sociability": 2,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "コーヒー・紅茶",
+        "status": {
+          "sociability": 2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 0,
+          "art": 0,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "お菓子作り",
+        "status": {
+          "sociability": 2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "けん玉",
+        "status": {
+          "sociability": -2,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": 1
+        }
+      },
+      {
+        "name": "銀細工",
+        "status": {
+          "sociability": 1,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "貨幣集め",
+        "status": {
+          "sociability": -2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": -2,
+          "art": 1,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "家庭菜園",
+        "status": {
+          "sociability": 2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": -2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": 1
+        }
+      },
+      {
+        "name": "カルトナージュ",
+        "status": {
+          "sociability": 2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "カリグラフィ",
+        "status": {
+          "sociability": 2,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": -1,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "カメラ・写真",
+        "status": {
+          "sociability": 1,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "ゲーム",
+        "status": {
+          "sociability": -2,
+          "collect": 0,
+          "multiPlay": -1,
+          "selfPolishing": -2,
+          "art": 2,
+          "sport": 1,
+          "it": 1,
+          "margin": 1,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "ネットオークション",
+        "status": {
+          "sociability": 1,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": -2,
+          "art": -2,
+          "sport": -2,
+          "it": 1,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "切手集め",
+        "status": {
+          "sociability": -2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": -2,
+          "art": 1,
+          "sport": -2,
+          "it": -2,
+          "margin": -2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "投資・株・FX・BO",
+        "status": {
+          "sociability": 2,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": -2,
+          "sport": -2,
+          "it": 2,
+          "margin": 1,
+          "costPerformance": 0
+        }
+      },
+      {
+        "name": "料理",
+        "status": {
+          "sociability": 2,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 1,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": 1
+        }
+      },
+      {
+        "name": "アニメ鑑賞",
+        "status": {
+          "sociability": -1,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": -2,
+          "art": 1,
+          "sport": -2,
+          "it": 1,
+          "margin": -2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "鉄道",
+        "status": {
+          "sociability": -1,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": -2,
+          "art": 1,
+          "sport": -2,
+          "it": 1,
+          "margin": -2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "アクアリウム",
+        "status": {
+          "sociability": -1,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": -2,
+          "art": 1,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "Web制作・Webデザイン",
+        "status": {
+          "sociability": 2,
+          "collect": -1,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": -2,
+          "it": 2,
+          "margin": 2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "資格取得",
+        "status": {
+          "sociability": 2,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 1,
+          "sport": -2,
+          "it": 1,
+          "margin": 1,
+          "costPerformance": 1
+        }
+      },
+      {
+        "name": "Q&Aサイト",
+        "status": {
+          "sociability": 2,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": -2,
+          "sport": -2,
+          "it": 2,
+          "margin": -1,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "読書",
+        "status": {
+          "sociability": -2,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": 1
+        }
+      },
+      {
+        "name": "ダーツ・ビリヤード",
+        "status": {
+          "sociability": 2,
+          "collect": 1,
+          "multiPlay": 1,
+          "selfPolishing": -2,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "instagram・twitter・facebook",
+        "status": {
+          "sociability": 2,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 1,
+          "sport": -2,
+          "it": 2,
+          "margin": -2,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "バッティングセンター",
+        "status": {
+          "sociability": 1,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 1,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "パラグライダー・パラセーリング・スカイダイビング",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "バレーボール",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": 2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "ダンス・バレエ",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": 1,
+          "selfPolishing": 1,
+          "art": 1,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "トライアスロン",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": -2,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "ハイキング・山登り・ボルダリング",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": -2,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "テニス",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": 2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "ツーリング・サイクリング",
+        "status": {
+          "sociability": 2,
+          "collect": -1,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "乗馬",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": 1,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "水泳",
+        "status": {
+          "sociability": 1,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "射撃",
+        "status": {
+          "sociability": 2,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "スキー",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "サバイバルゲーム",
+        "status": {
+          "sociability": 2,
+          "collect": 2,
+          "multiPlay": 2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "マラソン・ジョギング・散歩",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 1,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": 1
+        }
+      },
+      {
+        "name": "スノボー・スキー・スケボー",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "格闘技",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "ゴルフ",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "カラオケ",
+        "status": {
+          "sociability": 1,
+          "collect": -2,
+          "multiPlay": -1,
+          "selfPolishing": 2,
+          "art": 1,
+          "sport": 2,
+          "it": -2,
+          "margin": -1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "カヌー",
+        "status": {
+          "sociability": 1,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": -1,
+          "art": -2,
+          "sport": 1,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "エアロビクス",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": 0,
+          "selfPolishing": 2,
+          "art": -2,
+          "sport": 2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "サーフィン",
+        "status": {
+          "sociability": 2,
+          "collect": 1,
+          "multiPlay": -1,
+          "selfPolishing": 2,
+          "art": -1,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "釣り",
+        "status": {
+          "sociability": 1,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 1,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "狩猟",
+        "status": {
+          "sociability": 1,
+          "collect": 2,
+          "multiPlay": -1,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 1,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "ボーリング",
+        "status": {
+          "sociability": 1,
+          "collect": -2,
+          "multiPlay": -1,
+          "selfPolishing": -2,
+          "art": -2,
+          "sport": 1,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "体操・ヨガ",
+        "status": {
+          "sociability": 1,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": -1,
+          "sport": 2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": 0
+        }
+      },
+      {
+        "name": "神社巡り・御朱印集め",
+        "status": {
+          "sociability": 1,
+          "collect": 2,
+          "multiPlay": -2,
+          "selfPolishing": -1,
+          "art": -2,
+          "sport": -1,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": 2
+        }
+      },
+      {
+        "name": "ヒッチハイク",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": -2,
+          "sport": -2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": 1
+        }
+      },
+      {
+        "name": "ソープカービング",
+        "status": {
+          "sociability": 1,
+          "collect": 1,
+          "multiPlay": -2,
+          "selfPolishing": 2,
+          "art": 2,
+          "sport": 2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "ジグソーパズル",
+        "status": {
+          "sociability": -2,
+          "collect": -1,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": 1,
+          "sport": -2,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": -1
+        }
+      },
+      {
+        "name": "旅行",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": 0,
+          "selfPolishing": 2,
+          "art": 0,
+          "sport": 1,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "キャンプ",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": 0,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      },
+      {
+        "name": "温泉巡り",
+        "status": {
+          "sociability": 2,
+          "collect": 1,
+          "multiPlay": -1,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": -1,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2
+        }
+      }
+    ]
+  }
+}

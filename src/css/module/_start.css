@@ -1,0 +1,22 @@
+.start {
+  padding-top: 80px;
+
+  &__img {
+    height:50px;
+    width:225px;
+  }
+
+  &__app {
+    text-align:center;
+    padding:180px 0px 0px 0px;
+  }
+
+  &__event {
+    background-color:#EFAA5B;
+    border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    padding:10px 0px;
+    text-align: center;
+  }
+}

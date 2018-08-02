@@ -1,0 +1,22 @@
+.questArea {
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+.quest {
+  display: table;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  max-width: 75%;
+
+  &__img {
+    position: absolute;
+    top: 25px;
+    left: 15px;
+  }
+}
