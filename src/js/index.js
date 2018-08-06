@@ -27,6 +27,7 @@ var app = {
   nRCount: 0,
   baseRankArray: {},
   hobbyRankArray: {},
+  userStatusRank: {},
   condidateItems: document.querySelectorAll('.js-condidate-item'),
   condidateLinks: document.querySelectorAll('.js-condidate-link'),
   hobbyItems: document.querySelectorAll('.js-hobby-item'),
@@ -45,7 +46,6 @@ var app = {
   onDeviceReady: function() {
       this.attachEvent();
       this.calRank();
-      this.getHobbyRanks();
       this.getUserRankStatus();
   },
 
@@ -72,12 +72,12 @@ var app = {
       e.addEventListener('click', function() {
         if (app.questCount >= 10 && app.questCount < quests.quests.quest.length) {
           // 趣味の表示開始
-          console.log('10');
           app.showHobby();
         }else if (app.questCount === quests.quests.quest.length) {
           // 終了のお知らせ
           console.log('終了');
-          overlay[0].classList.remove('js-none');
+          questArea[0].classList.add('js-none');
+          overlay[0].classList.add('js-none');
         }
         var status = quests.quests.quest[app.rQN].choise[i].status;
         var resultStatus = app.calStatus(status);
@@ -108,6 +108,12 @@ var app = {
     var length = array.length;
     var r = Math.floor( Math.random() * length );
     app.rQN = r;
+  },
+
+  randoms: function(array) {
+    var length = array.length;
+    var r = Math.floor( Math.random() * length );
+    return r;
   },
 
   judgeRancomNumber: function() {
@@ -152,7 +158,6 @@ var app = {
     Object.keys(status).forEach(function(key) {
       resultStatus[key] += status[key];
     })
-
     return resultStatus;
   },
 
@@ -170,12 +175,19 @@ var app = {
 
   showHobby: function() {
     var hobbyArea = document.querySelectorAll('.js-hobbyArea')[0];
-    hobbyArea.classList.remove('js-hidden');
-    hobbyArea.classList.add('js-show');
+    hobbyArea.style.opacity = 0;
+    setTimeout( function () {
+      hobbyArea.style.opacity = 1;
+    }, 300);
+    var hobbyArray = [];
     for (var i = 0; i < app.hobbyItems.length; i++) {
-      app.hobbyItems[i].classList.remove('js-none');
       // statusに応じた2個だけ表示
+      var hobby = app.getHobbyRanks();
+      hobbyArray.push(hobby);
+      app.hobbyLinks[i].innerText = hobby.name;
+      app.hobbyItems[i].classList.remove('js-none');
     }
+    hobbyArea.classList.add('js-show');
   },
 
   calRank: function() {
@@ -195,7 +207,6 @@ var app = {
     var statusNatural = app.getNaturalStatus(baseStatusMax, baseStatusMin);
     var rankDistribute = app.getRankDistrbute(statusNatural);
     app.baseRankArray = app.getRankArray(rankDistribute, baseStatusMin);
-    console.log(app.baseRankArray);
   },
 
   getStatusMax: function(choise) {
@@ -273,9 +284,9 @@ var app = {
       rank[i] = hobbyRank;
       rankArray.push(rank);
     }
-    console.log(rankArray);
-    // sociabilityが一番高かったら、そのランクのhobby番号をみる
-    // その中からランダムで選択
+    app.hobbyRankArray = rankArray;
+    var hobbyNumber = app.getHobbyNumber();
+    return hobbys.hobbys.hobby[hobbyNumber];
   },
 
   getUserRankStatus: function() {
@@ -288,8 +299,31 @@ var app = {
         }
       }
     })
+    app.userStatusRank = userStatus;
+  },
 
-    return userStatus;
+  getHobbyNumber: function() {
+    var min = -3;
+    Object.keys(app.userStatusRank).forEach(function(key) {
+      if (min < app.userStatusRank[key]) {
+        min = app.userStatusRank[key];
+      };
+    })
+    var maxStatus = [];
+    Object.keys(app.userStatusRank).forEach(function(key) {
+      if (min === app.userStatusRank[key]) {
+        maxStatus.push(key);
+      };
+    })
+    var r = app.randoms(maxStatus);
+    var maxStatus = maxStatus[r];
+    var hobbyRankArray = app.hobbyRankArray[min];
+    var hobbyResultArray;
+    Object.keys(hobbyRankArray).forEach(function(key) {
+      hobbyResultArray = hobbyRankArray[key][maxStatus];
+    })
+    var r = app.randoms(hobbyResultArray);
+    return hobbyResultArray[r];
   }
 }
 

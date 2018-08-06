@@ -4,6 +4,8 @@
   padding-top: 25px;
   padding-bottom: 25px;
   transition: opacity 1s;
+  opacity: 0;
+  max-height: 0;
 }
 .hobby {
   &__title {
@@ -23,5 +25,21 @@
     padding-top: 20px;
     padding-bottom: 20px;
     width: 90%;
+  }
+
+  &__resetButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+  }
+
+  &__reset {
+    border: 1px solid #000;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

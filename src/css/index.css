@@ -73,10 +73,6 @@ h1 {
 .js-none {
   display: none;
 }
-.js-hidden {
-  opacity: 0;
-  max-height: 0;
-}
 .js-show {
   opacity: 1;
   max-height: 100%;
