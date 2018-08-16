@@ -3224,7 +3224,6 @@ var app = {
     var r = app.randoms(maxStatus);
     var maxStatus = maxStatus[r];
     var hobbyRankArray = app.hobbyRankArray[min];
-    console.log(hobbyRankArray);
     var hobbyResultArray;
     Object.keys(hobbyRankArray).forEach(function(key) {
       hobbyResultArray = hobbyRankArray[key][maxStatus];
