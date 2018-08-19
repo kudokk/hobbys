@@ -13,7 +13,8 @@ module.exports={
           "sport": -2,
           "it": 1,
           "margin": 1,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -27,7 +28,8 @@ module.exports={
           "sport": 2,
           "it": 0,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -41,7 +43,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -55,7 +58,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -69,7 +73,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -83,7 +88,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -97,7 +103,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -111,7 +118,8 @@ module.exports={
           "sport": 1,
           "it": 1,
           "margin": 1,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -125,7 +133,8 @@ module.exports={
           "sport": -2,
           "it": 1,
           "margin": 2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -139,7 +148,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -153,7 +163,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -167,7 +178,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -181,7 +193,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -195,7 +208,8 @@ module.exports={
           "sport": -2,
           "it": 2,
           "margin": -1,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -209,7 +223,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -223,7 +238,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -237,7 +253,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -251,7 +268,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -265,7 +283,8 @@ module.exports={
           "sport": -2,
           "it": 1,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -279,7 +298,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -1,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -293,7 +313,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -307,7 +328,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -321,7 +343,8 @@ module.exports={
           "sport": -2,
           "it": 2,
           "margin": 2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -335,7 +358,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -349,7 +373,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -363,7 +388,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -377,7 +403,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -391,7 +418,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -405,7 +433,8 @@ module.exports={
           "sport": 1,
           "it": -2,
           "margin": 2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -419,7 +448,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -433,7 +463,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": 1
+          "costPerformance": 1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -447,7 +478,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 0,
-          "costPerformance": 1
+          "costPerformance": 1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -461,7 +493,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -475,7 +508,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -489,7 +523,8 @@ module.exports={
           "sport": -2,
           "it": 1,
           "margin": 1,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -503,7 +538,8 @@ module.exports={
           "sport": -2,
           "it": 1,
           "margin": 2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -517,7 +553,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": -1,
-          "costPerformance": 1
+          "costPerformance": 1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -531,7 +568,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -545,7 +583,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -559,7 +598,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -1,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -573,7 +613,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -587,7 +628,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -601,7 +643,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -615,7 +658,8 @@ module.exports={
           "sport": -2,
           "it": 1,
           "margin": -2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -629,7 +673,8 @@ module.exports={
           "sport": -2,
           "it": 2,
           "margin": 2,
-          "costPerformance": 1
+          "costPerformance": 1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -643,7 +688,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -657,7 +703,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": 1
+          "costPerformance": 1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -671,7 +718,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -685,7 +733,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -699,7 +748,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -713,7 +763,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -727,7 +778,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -741,7 +793,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -755,7 +808,8 @@ module.exports={
           "sport": -2,
           "it": 0,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -769,7 +823,8 @@ module.exports={
           "sport": 1,
           "it": -2,
           "margin": 2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -783,7 +838,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -797,7 +853,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -811,7 +868,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -825,7 +883,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -839,7 +898,8 @@ module.exports={
           "sport": -2,
           "it": 1,
           "margin": 2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -853,7 +913,8 @@ module.exports={
           "sport": -2,
           "it": 1,
           "margin": -1,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -867,7 +928,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -881,7 +943,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -895,7 +958,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -909,7 +973,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": 1
+          "costPerformance": 1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -923,7 +988,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -937,7 +1003,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -951,7 +1018,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": 1
+          "costPerformance": 1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -965,7 +1033,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -979,7 +1048,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -1,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -993,7 +1063,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1007,7 +1078,8 @@ module.exports={
           "sport": 1,
           "it": 1,
           "margin": 1,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1021,7 +1093,8 @@ module.exports={
           "sport": -2,
           "it": 1,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1035,7 +1108,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": -2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1049,7 +1123,8 @@ module.exports={
           "sport": -2,
           "it": 2,
           "margin": 1,
-          "costPerformance": 0
+          "costPerformance": 0,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1063,7 +1138,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": 1
+          "costPerformance": 1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1077,7 +1153,8 @@ module.exports={
           "sport": -2,
           "it": 1,
           "margin": -2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1091,7 +1168,8 @@ module.exports={
           "sport": -2,
           "it": 1,
           "margin": -2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1105,7 +1183,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1119,7 +1198,8 @@ module.exports={
           "sport": -2,
           "it": 2,
           "margin": 2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1133,7 +1213,8 @@ module.exports={
           "sport": -2,
           "it": 1,
           "margin": 1,
-          "costPerformance": 1
+          "costPerformance": 1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1147,7 +1228,8 @@ module.exports={
           "sport": -2,
           "it": 2,
           "margin": -1,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1161,7 +1243,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": 1
+          "costPerformance": 1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1175,7 +1258,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1189,7 +1273,8 @@ module.exports={
           "sport": -2,
           "it": 2,
           "margin": -2,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1203,7 +1288,8 @@ module.exports={
           "sport": 1,
           "it": -2,
           "margin": 2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1217,7 +1303,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1231,7 +1318,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1245,7 +1333,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1259,7 +1348,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1273,7 +1363,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1287,7 +1378,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1301,7 +1393,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1315,7 +1408,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1329,7 +1423,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1343,7 +1438,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1357,7 +1453,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1371,7 +1468,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1385,7 +1483,8 @@ module.exports={
           "sport": 1,
           "it": -2,
           "margin": 1,
-          "costPerformance": 1
+          "costPerformance": 1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1399,7 +1498,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1413,7 +1513,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1427,7 +1528,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1441,7 +1543,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": -1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1455,7 +1558,8 @@ module.exports={
           "sport": 1,
           "it": -2,
           "margin": 2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1469,7 +1573,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1483,7 +1588,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1497,7 +1603,8 @@ module.exports={
           "sport": 1,
           "it": -2,
           "margin": 2,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1511,7 +1618,8 @@ module.exports={
           "sport": 1,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1525,7 +1633,8 @@ module.exports={
           "sport": 1,
           "it": -2,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1539,7 +1648,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 1,
-          "costPerformance": 0
+          "costPerformance": 0,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1553,7 +1663,8 @@ module.exports={
           "sport": -1,
           "it": -2,
           "margin": 1,
-          "costPerformance": 2
+          "costPerformance": 2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1567,7 +1678,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 2,
-          "costPerformance": 1
+          "costPerformance": 1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1581,7 +1693,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1595,7 +1708,8 @@ module.exports={
           "sport": -2,
           "it": -2,
           "margin": 1,
-          "costPerformance": -1
+          "costPerformance": -1,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1609,7 +1723,8 @@ module.exports={
           "sport": 1,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1623,7 +1738,8 @@ module.exports={
           "sport": 2,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       },
       {
@@ -1637,7 +1753,8 @@ module.exports={
           "sport": -1,
           "it": -2,
           "margin": 2,
-          "costPerformance": -2
+          "costPerformance": -2,
+          "text": "■<br><br>"
         }
       }
     ]
