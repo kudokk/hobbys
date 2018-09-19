@@ -46,9 +46,9 @@ var app = {
   onDeviceReady: function() {
       this.attachEvent();
       this.calRank();
-      this.getUserRankStatus();
   },
 
+  // ------------------------------- クリックイベント(controller) -------------------------------------
   attachEvent: function() {
     // メイン部分の非表示、クエストエリアの表示
     var start = document.querySelectorAll('.js-start');
@@ -60,6 +60,7 @@ var app = {
     start = Array.prototype.slice.call(start);
     main = Array.prototype.slice.call(main);
 
+    // 趣味を探すボタン押下時
     start[0].addEventListener('click', function() {
       app.random(quests.quests.quest);
       app.setRandomNumber(app.rQN);
@@ -68,6 +69,7 @@ var app = {
       questArea[0].classList.remove('js-none');
     })
 
+    // 質問の答え押下時
     app.condidateLinks.forEach(function(e, i) {
       e.addEventListener('click', function() {
         if (app.questCount >= 10 && app.questCount < quests.quests.quest.length) {
@@ -190,6 +192,7 @@ var app = {
     hobbyArea.classList.add('js-show');
   },
 
+  // ------------------------------- 全趣味のステータスを元にランク作成 -------------------------------------
   calRank: function() {
     var questLength = quests.quests.quest.length
     var baseStatusMax = {"sociability": 0,"collect": 0,"multiPlay": 0,"selfPolishing": 0,"art": 0,"sport": 0,"it": 0,"margin": 0,"costPerformance": 0};
@@ -289,8 +292,9 @@ var app = {
     return hobbys.hobbys.hobby[hobbyNumber];
   },
 
+  // ------------------------------- ユーザーのステータスのランク付け -------------------------------------
   getUserRankStatus: function() {
-    var userStatus = app.getStatus ();
+    var userStatus = app.getStatus();
     Object.keys(userStatus).forEach(function(key) {
       for (var i = 0; i < app.baseRankArray[key].length; i++) {
         if (userStatus[key] <= app.baseRankArray[key][i]) {
@@ -302,6 +306,7 @@ var app = {
     app.userStatusRank = userStatus;
   },
 
+  // ------------------------------- ユーザーのランクを元に推薦趣味を取得 -------------------------------------
   getHobbyNumber: function() {
     var min = -3;
     Object.keys(app.userStatusRank).forEach(function(key) {

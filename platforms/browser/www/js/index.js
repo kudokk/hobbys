@@ -14,7 +14,7 @@ module.exports={
           "it": 1,
           "margin": 1,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■インドア派の鉄板<br>話題に困らないかも！？<br>SF・恋愛・刑事、色々な世界を疑似体験しよう！！"
         }
       },
       {
@@ -29,7 +29,7 @@ module.exports={
           "it": 0,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■インドア派の鉄板<br>甲子園からWBC、W杯までスポーツの数だけ趣味の幅が広がる！"
         }
       },
       {
@@ -44,7 +44,7 @@ module.exports={
           "it": -2,
           "margin": -2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■美味しい物作り<br>意外と簡単につくれる！？<br>自分好みの梅酒を楽しもう！"
         }
       },
       {
@@ -59,7 +59,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■疲れた時の癒し<br>マッサージ・エステ・サロンで心身ともに癒されよう<br>グッズを買って自宅で癒されるの良いかも！？"
         }
       },
       {
@@ -74,7 +74,7 @@ module.exports={
           "it": -2,
           "margin": -2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■思い出作り<br>日々の思いを綴ろう！<br>より生産的な毎日が遅れる効果も！？"
         }
       },
       {
@@ -89,7 +89,7 @@ module.exports={
           "it": -2,
           "margin": -2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■思い出作り<br>日々の思いを綴ろう<br>イラストを書き続けて絵も上手くなるかも！？"
         }
       },
       {
@@ -104,7 +104,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■大人の癒し<br>一人でしっぽり飲むも良し！みんなでワイワイ飲むも良し！<br>カクテル・ワイン・焼酎・日本酒・ウイスキー何が好き？"
         }
       },
       {
@@ -119,7 +119,7 @@ module.exports={
           "it": 1,
           "margin": 1,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■頭脳スポーツ<br>論理的思考能力を高めよう！<br>アマチュアでも定石を作った実績も！！"
         }
       },
       {
@@ -134,7 +134,7 @@ module.exports={
           "it": 1,
           "margin": 2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■キャリアアップ<br>英語を習得するいいチャンス！<br>外国人と友達・恋人になる夢が叶うかも！？"
         }
       },
       {
@@ -149,7 +149,7 @@ module.exports={
           "it": -2,
           "margin": -2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■意外性抜群<br>手軽に始められるのに意外と奥深い<br>郵便に挟むのもオシャレ！"
         }
       },
       {
@@ -164,7 +164,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■趣味から職業に<br>占いでラッキーな毎日を！<br>いつのまにか占い師になれるかも！？"
         }
       },
       {
@@ -179,7 +179,7 @@ module.exports={
           "it": -2,
           "margin": -2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■オシャレな癒し<br>リラックス効果抜群！<br>異性からモテモテになれるかも！？"
         }
       },
       {
@@ -194,7 +194,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■意外性抜群<bとても家庭的。<br>日常で着る洋服からぬいぐるみまで、自分で作れる！"
         }
       },
       {
@@ -209,7 +209,7 @@ module.exports={
           "it": 2,
           "margin": -1,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■思い出作り<br>日々の思いを綴ろう<br>広告を出すことで収入を得ることも！"
         }
       },
       {
@@ -224,7 +224,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■癒し<br>水やりが必要ない！？自由な発想で楽しめる<br>心を穏やかにし、リラックスしよう"
         }
       },
       {
@@ -239,7 +239,7 @@ module.exports={
           "it": -2,
           "margin": -2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■一攫千金<br>お金持ちになって色々な夢を叶えよう<br>意外と規則性があるかも！？"
         }
       },
       {
@@ -254,7 +254,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■センスが光る<br>感性を磨こう<br>自分で弾けるようになったらモテモテかも！？"
         }
       },
       {
@@ -269,7 +269,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■話題性抜群の癒し<br>犬や猫だけじゃない！<br>フェレット、ハリネズミなど一風変わったペットで癒されよう"
         }
       },
       {
@@ -284,7 +284,7 @@ module.exports={
           "it": 1,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■インドア派の鉄板<br>精密に作り上げるだけでなくカスタマイズできるのも魅力！<br>器用さを磨こう"
         }
       },
       {
@@ -299,7 +299,7 @@ module.exports={
           "it": -2,
           "margin": -1,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■意外性抜群<br>自分だけの世界を作ることができる！？<br>手軽に始められるのが魅力！"
         }
       },
       {
@@ -314,7 +314,7 @@ module.exports={
           "it": -2,
           "margin": -2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■コレクション<br>実物さながらの精密さに驚愕！？<br>どんな高級車でもあなたのもの！"
         }
       },
       {
@@ -329,7 +329,7 @@ module.exports={
           "it": -2,
           "margin": -2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■感性を磨く<br>あなたの思いを凝縮しよう<br>魅力的な語彙力がつくかも！？"
         }
       },
       {
@@ -344,7 +344,7 @@ module.exports={
           "it": 2,
           "margin": 2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■意外性抜群<br>未完成なのが魅力！？<br>どんなジャンルの音楽でも聴けるのもまた魅力！"
         }
       },
       {
@@ -359,7 +359,7 @@ module.exports={
           "it": -2,
           "margin": -2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■大人の癒し<br>ブランドごと、生産年、保存状態などで味が変わり、その香りで心が満ちる<br>よりかっこよさを極めよう"
         }
       },
       {
@@ -374,7 +374,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■感性を磨く<br>正解なんてない！あなたが好きな作品があなたにとっての最高傑作<br>誰でも絵師になれる！？"
         }
       },
       {
@@ -389,7 +389,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■じっくり物作り<br>あなたならではの物を作ろう！<br>オシャレなランプなどなんでもつくれる！？"
         }
       },
       {
@@ -404,7 +404,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■意外性抜群<br>なりたい姿になろう！<br>別人になって別世界を満喫しよう"
         }
       },
       {
@@ -419,7 +419,7 @@ module.exports={
           "it": -2,
           "margin": -2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■感性を磨く<br>千年も前に生きていた人たちが、今の自分と同じ感性を持っている！？<br>季節を表すたくさんの繊細な色の名前や、大和言葉と呼ばれる奥ゆかしくもすっきりした言葉に触れよう"
         }
       },
       {
@@ -434,7 +434,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■頭脳スポーツ<br>唯一アマチュアがプロに勝てるゲーム！？<br>賭け麻雀は厳禁！"
         }
       },
       {
@@ -449,7 +449,7 @@ module.exports={
           "it": -2,
           "margin": -2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■感性を磨く<br>想像力・集中力を育もう！<br>心身ともに健康になる！？"
         }
       },
       {
@@ -464,7 +464,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": 1,
-          "text": "■<br><br>"
+          "text": "■<br>物を片付けることでスペースが広くなり、暮らしの動線がスムーズになって効率が良くなる！？<br>環境を整えて心を落ち着かせよう"
         }
       },
       {
@@ -479,7 +479,7 @@ module.exports={
           "it": -2,
           "margin": 0,
           "costPerformance": 1,
-          "text": "■<br><br>"
+          "text": "■意外性抜群<br>直筆だからこそ嬉しい！より思いを伝えよう<br>段々と字が綺麗になっていくかも！？"
         }
       },
       {
@@ -494,7 +494,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■意外性抜群<br>時間と人が織りなす物語が魅力<br>色々なもののルーツを探るのも良いかも"
         }
       },
       {
@@ -509,7 +509,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■流行<br>意外と手軽に始められる！？<br>自分だけのリラックス空間を作り上げよう"
         }
       },
       {
@@ -524,7 +524,7 @@ module.exports={
           "it": 1,
           "margin": 1,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■とても楽々<br>料理・サバイバル・音楽・アニメ・イタヅラ、コンテンツの種類・量は一番！<br>毎日、様々な刺激を受けよう！"
         }
       },
       {
@@ -539,7 +539,7 @@ module.exports={
           "it": 1,
           "margin": 2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■流行<br>今からでも遅くない！？趣味で少しづつ稼ごう<br>好きな内容で好きなように配信しよう！"
         }
       },
       {
@@ -554,7 +554,7 @@ module.exports={
           "it": -2,
           "margin": -1,
           "costPerformance": 1,
-          "text": "■<br><br>"
+          "text": "■自己研磨<br>運動しやすいだけじゃなく、結果が目に見えて自身がつくのが魅力！<br>モテモテ間違いなし！？"
         }
       },
       {
@@ -569,7 +569,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■美味しいものづくり<br>焼きたてパンがいくらでも食べられる！<br>自分好みをパンを作り上げよう！！"
         }
       },
       {
@@ -584,7 +584,7 @@ module.exports={
           "it": -2,
           "margin": -2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■センスが光る<br>鍵盤を押すだけで、たちまち気持ちのいいピアノの音がはね返ってくる！<br>メロディー、ハーモニー、リズムという音楽の3要素を丸々楽しもう！！"
         }
       },
       {
@@ -599,7 +599,7 @@ module.exports={
           "it": -2,
           "margin": -1,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■センスが光るものづくり<br>コンテストでの入賞もできるかも！？<br>自分の発想を生かせる、自由度の高さがピカイチ！映画のワンシーンの再現も！？"
         }
       },
       {
@@ -614,7 +614,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■意外性抜群<br>人をあっと言わせよう！<br>手品独特の超能力の世界観に浸ろう！！"
         }
       },
       {
@@ -629,7 +629,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■センスが光る<br>性別もなく自分次第で何でもできる！？<br>ブランドにこだわるのもあり！"
         }
       },
       {
@@ -644,7 +644,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■自己研磨<br>爪や指先をケアしていると無意識に手に対する注意力が高まり、些細な動きや振る舞いでも一つ一つの動作が丁寧になる！？<br>独創性やクオリティの高さには驚くはず"
         }
       },
       {
@@ -659,7 +659,7 @@ module.exports={
           "it": 1,
           "margin": -2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■意外性抜群<br>匿名で好きに好きなことを言えるのが魅力<br>気づいたら癖になってるかも！？"
         }
       },
       {
@@ -674,7 +674,7 @@ module.exports={
           "it": 2,
           "margin": 2,
           "costPerformance": 1,
-          "text": "■<br><br>"
+          "text": "■自己研磨<br>論理的思考能力を高めよう！<br>自由自在にものづくりできる！一攫千金のチャンスも！？"
         }
       },
       {
@@ -689,7 +689,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■インドア派の鉄板<br>ながら作業にはもってこい！<br>ニュースなど様々な情報入手ができる！！"
         }
       },
       {
@@ -704,7 +704,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": 1,
-          "text": "■<br><br>"
+          "text": "■センスが光る<br>きらきら光るラインストーンが魅力<br>日本デコアーティスト協会が監修している講座もある！？"
         }
       },
       {
@@ -719,7 +719,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■自己研磨<br>好印象を与えて仕事も恋愛も円滑に！？<br>気品溢れる大人にろう！"
         }
       },
       {
@@ -734,7 +734,7 @@ module.exports={
           "it": -2,
           "margin": -1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■感性を磨く<br>「自然美」と「人工美」の調和が魅力<br>適度に日光を浴びて、美しい庭に癒されよう"
         }
       },
       {
@@ -749,7 +749,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■じっくりものづくり<br>自分に合う、自分だけの器を作ろう<br>自分の手で創造する楽しさにやみつきに！？"
         }
       },
       {
@@ -764,7 +764,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■感性を磨く<br>笑いの元祖！<br>語彙力・表現力がいつのまにか自分のものに！？"
         }
       },
       {
@@ -779,7 +779,7 @@ module.exports={
           "it": -2,
           "margin": -2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■美味しいものづくり<br>栄養が詰まった皮もまるごと食べれるので無駄がない！<br>長期保存が可能でいつでも食べられる！！"
         }
       },
       {
@@ -794,7 +794,7 @@ module.exports={
           "it": -2,
           "margin": -2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■感性を磨く<br>pcやスマホがあれば手軽に始められる<br>様々なジャンルの音楽を聴きまくろう！！"
         }
       },
       {
@@ -809,7 +809,7 @@ module.exports={
           "it": 0,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■大人の癒し<br>ゆったりロマン溢れる時間をすごそう！<br>彗星、新星等を最初に見つけちゃうかも！？"
         }
       },
       {
@@ -824,7 +824,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■想像力向上<br>いつのまにか想像力・演技力が身についているかも！？<br>自分のデザインした物語で遊ぼう！"
         }
       },
       {
@@ -839,7 +839,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■自己研磨<br>気品溢れる大人になろう！<br道を極めて心も豊かに！？>"
         }
       },
       {
@@ -854,7 +854,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■自己研磨<br>語源を知るとその魅力に囚われる！？<br>身体を使った表現を！"
         }
       },
       {
@@ -869,22 +869,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
-        }
-      },
-      {
-        "name": "災害対策",
-        "status": {
-          "sociability": -2,
-          "collect": 2,
-          "multiPlay": -2,
-          "selfPolishing": -2,
-          "art": -2,
-          "sport": -2,
-          "it": -2,
-          "margin": -2,
-          "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■自己研磨<br>自分自身の魅力や価値を高めるにはもってこい！？<br>エネルギッシュで魅力的な人になろう！！"
         }
       },
       {
@@ -899,7 +884,7 @@ module.exports={
           "it": 1,
           "margin": 2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■センスが光る<br>音楽による感動を自分の手で作り上げよう<br>作詞・作曲にもテクニックが多数！？"
         }
       },
       {
@@ -914,7 +899,7 @@ module.exports={
           "it": 1,
           "margin": -1,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■趣味で稼ぐ<br>趣味で少しづつ稼ごう<br>小物から海外旅行までなんでも手に入る！？"
         }
       },
       {
@@ -929,7 +914,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■センスが光る<br>安価で手軽で奥深い！<br>インテリアにもなる存在感が魅力！！"
         }
       },
       {
@@ -944,7 +929,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■大人の癒し<br>どの銘柄が好み？リラックス効果で疲れを癒そう<br>美味しく味わうだけでなく、「薬」としても重宝されていた！？"
         }
       },
       {
@@ -959,7 +944,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■美味しいものづくり<br>何と言っても香りがいい！<br>作って、見て、食べて楽しめる！色々なお菓子作りに挑戦しよう！！"
         }
       },
       {
@@ -974,7 +959,7 @@ module.exports={
           "it": -2,
           "margin": -2,
           "costPerformance": 1,
-          "text": "■<br><br>"
+          "text": "■特技<br>脳にも良い効果がある！？<br>いつでもどこでもかっこいい技を決めよう！"
         }
       },
       {
@@ -989,7 +974,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■センスが光る<br>使い込めば使い込むほど味が出る！<br>硫化を引き取りながら独特の色を作り上げよう！！"
         }
       },
       {
@@ -1004,7 +989,7 @@ module.exports={
           "it": -2,
           "margin": -2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■コレクション<br>歴史の裏付けを取集！？<br>資産として保持しておくと良いことがあるかも！？"
         }
       },
       {
@@ -1019,7 +1004,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": 1,
-          "text": "■<br><br>"
+          "text": "■美味しいものづくり<br>食べるだけでなくインテリアとしてもオススメ！<br>百均で手軽に始められるのも魅力！！"
         }
       },
       {
@@ -1034,7 +1019,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■オシャレなものづくり<br>厚紙細工で、身近な小物から椅子や家具の調度品までつくれる！？<br>手軽なのに作品の幅がとても広い！"
         }
       },
       {
@@ -1049,7 +1034,7 @@ module.exports={
           "it": -2,
           "margin": -1,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■自己研磨<br>日本人に向いている！？<br>文字で魅了しよう！！"
         }
       },
       {
@@ -1064,7 +1049,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■コレクション<br>その一瞬を永遠の思い出に！<br>同じ被写体を撮っても全然違う写真に！？"
         }
       },
       {
@@ -1079,7 +1064,7 @@ module.exports={
           "it": 1,
           "margin": 1,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■インド派の鉄板<br>目的や目標を無限に追求できる！<br>仮想空間に浸って創造力を膨らまそう！！"
         }
       },
       {
@@ -1094,7 +1079,7 @@ module.exports={
           "it": 1,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■趣味で稼ぐ<br>あなたにとっては要らないものでも高く売れるかも！？<br>ネットで手軽に！ポイントでお得に！お買い物を楽しもう！！"
         }
       },
       {
@@ -1109,7 +1094,7 @@ module.exports={
           "it": -2,
           "margin": -2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■コレクション<br>小さい切手にはデザインが凝縮されている！？<br>経済情勢や切手収集のトレンドによっては価値が変化する投資性も！！"
         }
       },
       {
@@ -1124,7 +1109,7 @@ module.exports={
           "it": 2,
           "margin": 1,
           "costPerformance": 0,
-          "text": "■<br><br>"
+          "text": "■資産運用<br>誰でも始められる稼ぎ手段<br>株主優待だけで暮らすのも難しくないかも！？"
         }
       },
       {
@@ -1139,7 +1124,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": 1,
-          "text": "■<br><br>"
+          "text": "■美味しいものづくり<br>色々な変化を加えて、より美味しい料理を目指そう！<br>料理ができるとモテるかも！？"
         }
       },
       {
@@ -1154,7 +1139,7 @@ module.exports={
           "it": 1,
           "margin": -2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■インドア派の鉄板<br>世界に誇れるコンテンツ！<br>アニメだからこそ楽しめる世界観に浸ろう！！"
         }
       },
       {
@@ -1169,7 +1154,7 @@ module.exports={
           "it": 1,
           "margin": -2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■意外性抜群<br>写真を撮るだけで絵になるそのデザイン性が魅力！<br>乗っても撮っても聞いても楽しめる！！"
         }
       },
       {
@@ -1184,7 +1169,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■オシャレな癒し<br>自分で創り上げる小さな海の世界！<br>美しいインテリアとしても大活躍！！"
         }
       },
       {
@@ -1199,7 +1184,7 @@ module.exports={
           "it": 2,
           "margin": 2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■趣味で稼ぐ<br>PCだからこそ自由自在に表現できる<br>需要は高まる一方なので、フリーとして稼ぐことも！？"
         }
       },
       {
@@ -1214,7 +1199,7 @@ module.exports={
           "it": 1,
           "margin": 1,
           "costPerformance": 1,
-          "text": "■<br><br>"
+          "text": "■自己研磨<br>将来性抜群！<br>自分にあった仕事に繋がることも！？"
         }
       },
       {
@@ -1229,7 +1214,7 @@ module.exports={
           "it": 2,
           "margin": -1,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■自己研磨<br>自分の知識を活かして困っている人を助けよう！<br>人に感謝されながら自然と知識を増やしていこう！！"
         }
       },
       {
@@ -1244,7 +1229,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": 1,
-          "text": "■<br><br>"
+          "text": "■インドア派の鉄板<br>いつでもどこでも楽しめて、想像力豊かに！<br>知識が広がるだけでなく、交流のきっかけにも！？"
         }
       },
       {
@@ -1259,7 +1244,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■手軽なスポーツ<br>単純で老若男女が楽しめる！<br>道具にこだわって見るのもいいかも！？"
         }
       },
       {
@@ -1274,7 +1259,7 @@ module.exports={
           "it": 2,
           "margin": -2,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■王道<br>同じ境遇の人と簡単に繋がれる！<br>小さな幸せを投稿していいねをもらおう！！"
         }
       },
       {
@@ -1289,7 +1274,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■気分爽快<br>ストレス発散したいときはこれ！<br>女子人気も急上昇！デートに使える！？"
         }
       },
       {
@@ -1304,7 +1289,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■気分爽快<br>空と海を全身で堪能しよう！<br>意外と都会でもできるかも！？"
         }
       },
       {
@@ -1319,7 +1304,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■球技<br>球技の中で唯一、床にボールを落としてはいけないスポーツ！<br>ボールを繋げて心も繋がる！？"
         }
       },
       {
@@ -1334,7 +1319,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■気分爽快<br>運動不足解消！ダイエット効果も！<br>リズム感が鍛えられ、音楽がもっと楽しくなる！？"
         }
       },
       {
@@ -1349,7 +1334,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■生涯スポーツ<br>トライアスロンの練習・大会を兼ねて観光！？<br>魅力的な身体と達成感を手に入れよう！！"
         }
       },
       {
@@ -1364,7 +1349,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■アウトドアの鉄板<br>自然の中を歩いて登って、全身で満喫しよう！<br>人の暖かさに触れることも！？"
         }
       },
       {
@@ -1379,7 +1364,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■王道<br>ボールを叩き込む爽快感！<br>季節に関係なくいつでもできる！！"
         }
       },
       {
@@ -1394,7 +1379,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■気分爽快<br>いつでも何処へでも出かけられる！<br>全身で風邪を感じながら遠出しよう！！"
         }
       },
       {
@@ -1409,7 +1394,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■意外性抜群<br>乗っているだけで運動不足解消！？<br>馬とのコミュニケーションで心も癒されよう！！"
         }
       },
       {
@@ -1424,7 +1409,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■生涯スポーツ<br>水中で消費するカロリーは陸上の4倍！？<br>足腰の負担も少ないのにまんべんなく全身の筋肉を鍛えられる！"
         }
       },
       {
@@ -1439,52 +1424,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
-        }
-      },
-      {
-        "name": "スキー",
-        "status": {
-          "sociability": 2,
-          "collect": -2,
-          "multiPlay": -2,
-          "selfPolishing": 1,
-          "art": -2,
-          "sport": 2,
-          "it": -2,
-          "margin": 2,
-          "costPerformance": -2,
-          "text": "■<br><br>"
-        }
-      },
-      {
-        "name": "サバイバルゲーム",
-        "status": {
-          "sociability": 2,
-          "collect": 2,
-          "multiPlay": 2,
-          "selfPolishing": 1,
-          "art": -2,
-          "sport": 2,
-          "it": -2,
-          "margin": 2,
-          "costPerformance": -2,
-          "text": "■<br><br>"
-        }
-      },
-      {
-        "name": "マラソン・ジョギング・散歩",
-        "status": {
-          "sociability": 2,
-          "collect": -2,
-          "multiPlay": -2,
-          "selfPolishing": 1,
-          "art": -2,
-          "sport": 1,
-          "it": -2,
-          "margin": 1,
-          "costPerformance": 1,
-          "text": "■<br><br>"
+          "text": "■気分爽快<br>実銃を撃つという、誰にでも出来ることではない非日常性からくる満足感！<br>撃つ前の緊張感と撃ったあとの爽快感が魅力！！"
         }
       },
       {
@@ -1499,7 +1439,37 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■非日常スポーツ<br>魅力は何と言ってもスピード感！<br>澄んだ空気、満点の星空、温泉、美味しいお酒と満喫要素はいっぱい！！"
+        }
+      },
+      {
+        "name": "サバイバルゲーム",
+        "status": {
+          "sociability": 2,
+          "collect": 2,
+          "multiPlay": 2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 2,
+          "it": -2,
+          "margin": 2,
+          "costPerformance": -2,
+          "text": "■非日常スポーツ<br>初めてでも、1人でも楽しめる！？<br>世界中の銃を満喫しよう"
+        }
+      },
+      {
+        "name": "マラソン・ジョギング・散歩",
+        "status": {
+          "sociability": 2,
+          "collect": -2,
+          "multiPlay": -2,
+          "selfPolishing": 1,
+          "art": -2,
+          "sport": 1,
+          "it": -2,
+          "margin": 1,
+          "costPerformance": 1,
+          "text": "■王道<br>いつでもどこでもできる！<br>ダイエットも兼ねて運動不足解消にはもってこい！！"
         }
       },
       {
@@ -1514,7 +1484,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■気分爽快<br>見ているだけで大興奮！<br>鍛え上げられた体と体がぶつかり合い、研ぎ澄まされた心・技・体が躍動する！！"
         }
       },
       {
@@ -1529,7 +1499,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "非日常スポーツ<br>自分だけの力で、はるか遠くにボールを飛ばせる競技！<br>自然そのものに加えて、美しくデザインさせたホールにワクワク、ドキドキ！？"
         }
       },
       {
@@ -1540,11 +1510,11 @@ module.exports={
           "multiPlay": -1,
           "selfPolishing": 2,
           "art": 1,
-          "sport": 2,
+          "sport": 1,
           "it": -2,
           "margin": -1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■気分爽快<br>実はドリンクバーでネットカフェよりもお得！？<br>一人でも友達とでも楽しめる！！"
         }
       },
       {
@@ -1559,7 +1529,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■非日常スポーツ<br>水面を滑るような感覚に新鮮な驚きと感動！！<br>水上から楽しめる美しい景観と、場所や季節など楽しみ方は豊富！"
         }
       },
       {
@@ -1574,7 +1544,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■自己研磨<br>明るい音楽に合わせて踊って楽しみながら運動不足解消！<br>１人でも楽しめて気軽！！"
         }
       },
       {
@@ -1589,7 +1559,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■王道<br>海の上を歩くような感覚！<br>身体も引き締まってモテるかも！？"
         }
       },
       {
@@ -1604,7 +1574,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■王道<br>道具にこだわらなくても釣れる！？<br>何と言っても自分で釣った魚がうまい！"
         }
       },
       {
@@ -1619,7 +1589,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■非日常<br>イノシシやシカの肉で、色々料理が楽しめる！<br>狩猟の本能的な欲求を満たそう！！"
         }
       },
       {
@@ -1634,7 +1604,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■王道<br>誰でもできる、誰とでもプレーできる！<br>ストレス解消にはもってこい！！"
         }
       },
       {
@@ -1649,7 +1619,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": 0,
-          "text": "■<br><br>"
+          "text": "■オシャレな癒し<br>呼吸法を身につけて、体と心を解放しよう！<br>心身ともに自分と向き合おう！！"
         }
       },
       {
@@ -1664,7 +1634,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": 2,
-          "text": "■<br><br>"
+          "text": "■コレクション<br>寺社の僧侶や神官が一人一人に手書きしてくれるお守り！<br>アート収集しながらも運勢アップも！！"
         }
       },
       {
@@ -1679,11 +1649,11 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": 1,
-          "text": "■<br><br>"
+          "text": "■非日常<br>普段出会えないような人にも会えるのが醍醐味<br>観光地では地元のオススメ料理やコアな観光地を教えてもらえるかも！？"
         }
       },
       {
-        "name": "ソープカービング",
+        "name": "キャンドル・ソープカービング",
         "status": {
           "sociability": 1,
           "collect": 1,
@@ -1694,7 +1664,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■意外性抜群<br>アルファベットを彫るだけでもオシャレ！<br>インテリアにもプレゼントにも素敵！！"
         }
       },
       {
@@ -1709,7 +1679,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": -1,
-          "text": "■<br><br>"
+          "text": "■自己研磨<br>完成したら自慢できるインテリアに！<br>段々とピース数を増やして集中力と根気を磨こう！！"
         }
       },
       {
@@ -1724,7 +1694,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■王道<br>別世界で自由を満喫しよう！<br>人・物との新たな出会いがあるかも！？"
         }
       },
       {
@@ -1739,7 +1709,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■アウトドアの鉄板<br>どれだけキャンプグッズを持っていくかによって楽しみ方は変わる！？<br>夜は火を囲いながらの談話が醍醐味！"
         }
       },
       {
@@ -1754,7 +1724,7 @@ module.exports={
           "it": -2,
           "margin": 2,
           "costPerformance": -2,
-          "text": "■<br><br>"
+          "text": "■意外性抜群<br>日本は、世界一の温泉数を誇る、温泉大国！<br>温泉地ごとに異なる温泉の魅力を満喫しよう！！"
         }
       }
     ]
@@ -3069,9 +3039,11 @@ var app = {
   onDeviceReady: function() {
       this.attachEvent();
       this.calRank();
+      console.log('ready')
       this.getUserRankStatus();
   },
 
+  // ------------------------------- クリックイベント(controller) -------------------------------------
   attachEvent: function() {
     // メイン部分の非表示、クエストエリアの表示
     var start = document.querySelectorAll('.js-start');
@@ -3083,6 +3055,7 @@ var app = {
     start = Array.prototype.slice.call(start);
     main = Array.prototype.slice.call(main);
 
+    // 趣味を探すボタン押下時
     start[0].addEventListener('click', function() {
       app.random(quests.quests.quest);
       app.setRandomNumber(app.rQN);
@@ -3091,6 +3064,7 @@ var app = {
       questArea[0].classList.remove('js-none');
     })
 
+    // 質問の答え押下時
     app.condidateLinks.forEach(function(e, i) {
       e.addEventListener('click', function() {
         if (app.questCount >= 10 && app.questCount < quests.quests.quest.length) {
@@ -3213,6 +3187,7 @@ var app = {
     hobbyArea.classList.add('js-show');
   },
 
+  // ------------------------------- 全趣味のステータスを元にランク作成 -------------------------------------
   calRank: function() {
     var questLength = quests.quests.quest.length
     var baseStatusMax = {"sociability": 0,"collect": 0,"multiPlay": 0,"selfPolishing": 0,"art": 0,"sport": 0,"it": 0,"margin": 0,"costPerformance": 0};
@@ -3312,8 +3287,9 @@ var app = {
     return hobbys.hobbys.hobby[hobbyNumber];
   },
 
+  // -------------------------------  -------------------------------------
   getUserRankStatus: function() {
-    var userStatus = app.getStatus ();
+    var userStatus = app.getStatus();
     Object.keys(userStatus).forEach(function(key) {
       for (var i = 0; i < app.baseRankArray[key].length; i++) {
         if (userStatus[key] <= app.baseRankArray[key][i]) {
@@ -3322,6 +3298,7 @@ var app = {
         }
       }
     })
+    console.log(userStatus)
     app.userStatusRank = userStatus;
   },
 
