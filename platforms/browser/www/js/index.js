@@ -3016,6 +3016,7 @@ var hobbys = require('../data/hobby.json');
 var app = {
   questCount: 0,
   rQN: 0,
+  // 質問の番号の配列
   qNArray: [],
   nRCount: 0,
   baseRankArray: {},
@@ -3039,8 +3040,6 @@ var app = {
   onDeviceReady: function() {
       this.attachEvent();
       this.calRank();
-      console.log('ready')
-      this.getUserRankStatus();
   },
 
   // ------------------------------- クリックイベント(controller) -------------------------------------
@@ -3051,12 +3050,18 @@ var app = {
     var questArea = document.querySelectorAll('.js-questArea');
     var overlay = document.querySelectorAll('.js-overlay');
     var hobbyArea = document.querySelectorAll('.js-hobbyArea');
+    var reset = document.querySelectorAll('.hobby__reset');
 
     start = Array.prototype.slice.call(start);
     main = Array.prototype.slice.call(main);
 
     // 趣味を探すボタン押下時
     start[0].addEventListener('click', function() {
+      // リセット
+      app.questCount = 0;
+      app.qNArray = [];
+      app.resetStatus();
+      // 出題
       app.random(quests.quests.quest);
       app.setRandomNumber(app.rQN);
       app.nextQuest();
@@ -3068,6 +3073,7 @@ var app = {
     app.condidateLinks.forEach(function(e, i) {
       e.addEventListener('click', function() {
         if (app.questCount >= 10 && app.questCount < quests.quests.quest.length) {
+          app.getUserRankStatus();
           // 趣味の表示開始
           app.showHobby();
         }else if (app.questCount === quests.quests.quest.length) {
@@ -3082,6 +3088,16 @@ var app = {
         app.nRCount = 0;
         app.newRandomNumber();
       })
+    })
+
+    // やり直すボタン押下時
+    reset[0].addEventListener('click', function(e, i) {
+      // スタート要素表示
+      main[0].classList.remove('js-none');
+      questArea[0].classList.add('js-none');
+      var hobbyArea = document.querySelectorAll('.js-hobbyArea')[0];
+      hobbyArea.style.opacity = 0;
+      hobbyArea.classList.remove('js-show');
     })
   },
 
@@ -3170,19 +3186,26 @@ var app = {
     return status;
   },
 
+  resetStatus: function() {
+    var status = {"sociability": 0,"collect": 0,"multiPlay": 0,"selfPolishing": 0,"art": 0,"sport": 0,"it": 0,"margin": 0,"costPerformance": 0};
+    app.setStatus(status);
+  },
+
   showHobby: function() {
     var hobbyArea = document.querySelectorAll('.js-hobbyArea')[0];
     hobbyArea.style.opacity = 0;
     setTimeout( function () {
       hobbyArea.style.opacity = 1;
-    }, 300);
+    }, 200);
     var hobbyArray = [];
     for (var i = 0; i < app.hobbyItems.length; i++) {
       // statusに応じた2個だけ表示
       var hobby = app.getHobbyRanks();
-      hobbyArray.push(hobby);
-      app.hobbyLinks[i].innerText = hobby.name;
-      app.hobbyItems[i].classList.remove('js-none');
+      if (typeof hobby !== 'undefined') {
+        hobbyArray.push(hobby);
+        app.hobbyLinks[i].innerText = hobby.name;
+        app.hobbyItems[i].classList.remove('js-none');
+      }
     }
     hobbyArea.classList.add('js-show');
   },
@@ -3287,7 +3310,7 @@ var app = {
     return hobbys.hobbys.hobby[hobbyNumber];
   },
 
-  // -------------------------------  -------------------------------------
+  // ------------------------------- ユーザーのステータスのランク付け -------------------------------------
   getUserRankStatus: function() {
     var userStatus = app.getStatus();
     Object.keys(userStatus).forEach(function(key) {
@@ -3298,10 +3321,10 @@ var app = {
         }
       }
     })
-    console.log(userStatus)
     app.userStatusRank = userStatus;
   },
 
+  // ------------------------------- ユーザーのランクを元に推薦趣味を取得 -------------------------------------
   getHobbyNumber: function() {
     var min = -3;
     Object.keys(app.userStatusRank).forEach(function(key) {
