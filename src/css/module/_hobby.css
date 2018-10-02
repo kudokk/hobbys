@@ -20,11 +20,54 @@
   }
 
   &__link {
+    background-color: #fcf9ef;
     border: 1px solid #000;
     display: inline-block;
+    font-size: 14px;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 90%;
+    position: relative;
+    transition: .2s;
+
+    &::before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      background: #f9f1d6;
+      border: 1px solid #f9f1d6;
+      transform: translate3d(0,0,0);
+      animation: aura 2s ease-out infinite;
+    }
+
+    & .rp-effect {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.8;/*波紋の濃さ*/
+      transform: scale(0);
+      background: #FFF;/*波紋色*/
+      animation: ripple 700ms;
+      pointer-events: none;
+    }
+  }
+
+  &__text {
+    position: relative;
+  }
+
+  &__desc {
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: left;
+    width: 90%;
+    margin: 5px auto;
+    padding-bottom: 5px;
   }
 
   &__resetButton {
@@ -41,5 +84,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@keyframes aura{
+  0%{transform:scale(.95); opacity:1}
+  90%{opacity:.5}to{transform:scale(1.1,1.1); opacity:0}
+}
+
+@keyframes ripple {
+  to {
+    opacity: 0;
+    transform: scale(2.0);
   }
 }

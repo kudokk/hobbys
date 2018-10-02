@@ -1,6 +1,11 @@
 .start {
   padding-top: 80px;
 
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
   &__img {
     height:50px;
     width:225px;
@@ -15,8 +20,8 @@
     background-color:#EFAA5B;
     border-radius:4px;
     color:#FFFFFF;
-    font-size:12px;
-    padding:10px 0px;
+    font-size:16px;
+    padding:16px 0px;
     text-align: center;
   }
 }

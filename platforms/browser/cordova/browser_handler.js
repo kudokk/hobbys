@@ -30,7 +30,7 @@ module.exports = {
         // this method should the id from root config.xml => <widget id=xxx
         // return common.package_name(project_dir, this.www_dir(project_dir));
         // console.log('package_name called with ' + project_dir);
-        var pkgName = 'io.cordova.hellocordova';
+        var pkgName = 'io.cordova.hobbyapp';
         var widget_id_regex = /(?:<widget\s+id=['"])(\S+)(?:['"])/;
 
         var configPath = path.join(project_dir, 'config.xml');

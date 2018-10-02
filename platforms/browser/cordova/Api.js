@@ -87,7 +87,7 @@ Api.createPlatform = function (dest, config, options, events) {
     events = setupEvents(events);
 
     var name = 'HelloCordova';
-    var id = 'io.cordova.hellocordova';
+    var id = 'io.cordova.hobbyapp';
     if (config) {
         name = config.name();
         id = config.packageName();

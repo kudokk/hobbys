@@ -73,6 +73,11 @@ border-spacing: 0;
   padding-top: 80px;
 }
 
+ .start h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
  .start__img {
     height:50px;
     width:225px;
@@ -87,8 +92,8 @@ border-spacing: 0;
     background-color:#EFAA5B;
     border-radius:4px;
     color:#FFFFFF;
-    font-size:12px;
-    padding:10px 0px;
+    font-size:16px;
+    padding:16px 0px;
     text-align: center;
   }
 
@@ -127,17 +132,16 @@ border-spacing: 0;
   }
 
  .condidate__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
   }
 
  .condidate__item {
     text-align: center;
     width: 50%;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 
  .condidate__link {
@@ -147,7 +151,21 @@ border-spacing: 0;
     padding-top: 15px;
     padding-bottom: 15px;
     width: 85%;
+    position: relative;
+    overflow: hidden;
   }
+
+ .condidate__link .rp-effect {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.8;/*波紋の濃さ*/
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      background: #FFF;/*波紋色*/
+      -webkit-animation: ripple 700ms;
+              animation: ripple 700ms;
+      pointer-events: none;
+    }
 
  .condidate__overlay {
     position: absolute;
@@ -163,7 +181,6 @@ border-spacing: 0;
   border-top: 1px solid #e6e6e6;
   padding-top: 25px;
   padding-bottom: 25px;
-  -webkit-transition: opacity 1s;
   transition: opacity 1s;
   opacity: 0;
   max-height: 0;
@@ -181,19 +198,64 @@ border-spacing: 0;
   }
 
  .hobby__link {
+    background-color: #fcf9ef;
     border: 1px solid #000;
     display: inline-block;
+    font-size: 14px;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 90%;
+    position: relative;
+    transition: .2s;
+  }
+
+ .hobby__link::before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      background: #f9f1d6;
+      border: 1px solid #f9f1d6;
+      -webkit-transform: translate3d(0,0,0);
+              transform: translate3d(0,0,0);
+      -webkit-animation: aura 2s ease-out infinite;
+              animation: aura 2s ease-out infinite;
+    }
+
+ .hobby__link .rp-effect {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.8;/*波紋の濃さ*/
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      background: #FFF;/*波紋色*/
+      -webkit-animation: ripple 700ms;
+              animation: ripple 700ms;
+      pointer-events: none;
+    }
+
+ .hobby__text {
+    position: relative;
+  }
+
+ .hobby__desc {
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: left;
+    width: 90%;
+    margin: 5px auto;
+    padding-bottom: 5px;
   }
 
  .hobby__resetButton {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
             justify-content: flex-end;
     margin-right: 5%;
   }
@@ -203,16 +265,39 @@ border-spacing: 0;
     border-radius: 50%;
     height: 40px;
     width: 40px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
+    -webkit-align-items: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
+    -webkit-justify-content: center;
             justify-content: center;
   }
+
+ @-webkit-keyframes aura{
+  0%{-webkit-transform:scale(.95);transform:scale(.95); opacity:1}
+  90%{opacity:.5}to{-webkit-transform:scale(1.1,1.1);transform:scale(1.1,1.1); opacity:0}
+}
+
+ @keyframes aura{
+  0%{-webkit-transform:scale(.95);transform:scale(.95); opacity:1}
+  90%{opacity:.5}to{-webkit-transform:scale(1.1,1.1);transform:scale(1.1,1.1); opacity:0}
+}
+
+ @-webkit-keyframes ripple {
+  to {
+    opacity: 0;
+    -webkit-transform: scale(2.0);
+            transform: scale(2.0);
+  }
+}
+
+ @keyframes ripple {
+  to {
+    opacity: 0;
+    -webkit-transform: scale(2.0);
+            transform: scale(2.0);
+  }
+}
 
  body {
   background-color: #F7DA71;

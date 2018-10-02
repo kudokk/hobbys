@@ -1,9 +1,9 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "HelloCordova",
-  "short_name": "HelloCordova",
-  "version": "io.cordova.hellocordova",
+  "name": "趣味診断",
+  "short_name": "趣味診断",
+  "version": "io.cordova.hobbyapp",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "author": "Apache Cordova Team",
   "icons": [],

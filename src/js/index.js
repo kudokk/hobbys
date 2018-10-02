@@ -22,16 +22,25 @@ var hobbys = require('../data/hobby.json');
 
 var app = {
   questCount: 0,
+  // 質問の番号
   rQN: 0,
+  // 趣味の番号
+  rHO: 0,
   // 質問の番号の配列
   qNArray: [],
+  // 趣味のステータスと番号
+  hObject: {"sociability": [],"collect": [],"multiPlay": [],"selfPolishing": [],"art": [],"sport": [],"it": [],"margin": [],"costPerformance": []},
+  // 質問用のランダムカウント
   nRCount: 0,
+  // 趣味用のランダムカウント
+  oRCount: 0,
   baseRankArray: {},
   hobbyRankArray: {},
   userStatusRank: {},
   condidateItems: document.querySelectorAll('.js-condidate-item'),
   condidateLinks: document.querySelectorAll('.js-condidate-link'),
   hobbyItems: document.querySelectorAll('.js-hobby-item'),
+  hobbyDescs: document.querySelectorAll('.js-hobby-desc'),
   hobbyLinks: document.querySelectorAll('.js-hobby-link'),
   hobbyList: document.querySelectorAll('.js-hobby-list')[0],
 
@@ -69,8 +78,7 @@ var app = {
       app.qNArray = [];
       app.resetStatus();
       // 出題
-      app.random(quests.quests.quest);
-      app.setRandomNumber(app.rQN);
+      app.rQN = app.random(quests.quests.quest);
       app.nextQuest();
       main[0].classList.add('js-none');
       questArea[0].classList.remove('js-none');
@@ -102,10 +110,75 @@ var app = {
       // スタート要素表示
       main[0].classList.remove('js-none');
       questArea[0].classList.add('js-none');
+      app.hobbyDescs.forEach(function(e, i) {
+        e.classList.add('js-none');
+      })
       var hobbyArea = document.querySelectorAll('.js-hobbyArea')[0];
       hobbyArea.style.opacity = 0;
       hobbyArea.classList.remove('js-show');
+      setTimeout((function() {
+        hobbyArea.style.display = 'none';
+      }), 1000)
     })
+
+    // 趣味候補ボタン押下時
+    app.hobbyLinks.forEach(function(e, i) {
+      e.addEventListener('click', function(ev, ix) {
+        questArea[0].classList.add('js-none');
+        app.hobbyDescs.forEach(function(e, i) {
+          e.classList.remove('js-none');
+        })
+      })
+    })
+    // 趣味候補ボタン押下時
+    for (j = 0, num = app.hobbyLinks.length; j < num; j++) {
+      ripple = app.hobbyLinks[j];
+      ripple.addEventListener('mousedown', function(e) {
+        ripple = this;//クリックされたボタンを取得
+        cover = document.createElement('span');//span作る
+        coversize = ripple.offsetWidth;//要素の幅を取得
+        loc = ripple.getBoundingClientRect();//絶対座標の取得
+        x = e.pageX - loc.left - window.pageXOffset - (coversize / 2);
+        y = e.pageY - loc.top - window.pageYOffset - (coversize / 2);
+        pos = 'top:' + y + 'px; left:' + x + 'px; height:' + coversize + 'px; width:' + coversize + 'px;';
+
+        //spanを追加
+        ripple.appendChild(cover);
+        cover.setAttribute('style', pos);
+        cover.setAttribute('class', 'rp-effect');//クラス名追加
+
+        //しばらくしたらspanを削除
+        setTimeout(function() {
+          var list = document.getElementsByClassName( "rp-effect" ) ;
+          for(var i =list.length-1;i>=0; i--){//末尾から順にすべて削除
+            list[i].parentNode.removeChild(list[i]);
+        }}, 2000)
+      });
+    }
+  },
+
+  //位置を取得
+  RippleEffect: function(e) {
+    ripple = this;//クリックされたボタンを取得
+    console.log(ripple)
+   	cover = document.createElement('span');//span作る
+   	coversize = ripple.offsetWidth;//要素の幅を取得
+    loc = ripple.getBoundingClientRect();//絶対座標の取得
+    x = e.pageX - loc.left - window.pageXOffset - (coversize / 2);
+    y = e.pageY - loc.top - window.pageYOffset - (coversize / 2);
+    pos = 'top:' + y + 'px; left:' + x + 'px; height:' + coversize + 'px; width:' + coversize + 'px;';
+
+    //spanを追加
+    ripple.appendChild(cover);
+    cover.setAttribute('style', pos);
+    cover.setAttribute('class', 'rp-effect');//クラス名追加
+
+    //しばらくしたらspanを削除
+    setTimeout(function() {
+      var list = document.getElementsByClassName( "rp-effect" ) ;
+      for(var i =list.length-1;i>=0; i--){//末尾から順にすべて削除
+      	list[i].parentNode.removeChild(list[i]);
+    }}, 2000)
   },
 
   nextQuest: function(r) {
@@ -124,53 +197,49 @@ var app = {
     app.questCount++;
   },
 
+  // 単純に数字を返却
   random: function(array) {
-    var length = array.length;
-    var r = Math.floor( Math.random() * length );
-    app.rQN = r;
-  },
-
-  randoms: function(array) {
     var length = array.length;
     var r = Math.floor( Math.random() * length );
     return r;
   },
 
-  judgeRancomNumber: function() {
+  judgeRandomNumber: function(array, number) {
     var flg = true;
-    var qNArray = app.getRandomNumber();
-    qNArray.forEach(function(e) {
-      if (e === app.rQN) {
+    array.forEach(function(e) {
+      if (e === number) {
         flg = false;//等しいものがある
       }
     })
     return flg;
   },
 
+  // 違う数字が出るまでjudgeRandomNumber実行
   newRandomNumber: function() {
     app.nRCount++;
-    app.random(quests.quests.quest);
-    var flg = app.judgeRancomNumber();
+    app.rQN = app.random(quests.quests.quest);
+    var flg = app.judgeRandomNumber(app.qNArray, app.rQN);
     if (flg) { //今まで出ていない数字
-      app.setRandomNumber(app.rQN);
+      app.qNArray.push(app.rQN)
       app.nextQuest();
-    } else if(app.nRCount < 30) {
+    } else if(app.nRCount < 50) {
       app.newRandomNumber();
       // 同じ問題ばかり出てしまう問題
     }
   },
 
-  getRandomNumber: function() {
-    var qNArray = JSON.parse(localStorage.getItem('qNArray'));
-    if (qNArray === null) {
-      var qNArray = [];
+  // 違う数字が出るまでjudgeRandomNumber実行
+  newRandomHobbyNumber: function(hobbyResultArray, status) {
+    app.oRCount++;
+    app.rHO = app.random(hobbyResultArray);
+    var flg = app.judgeRandomNumber(app.hObject[status], app.rHO);
+    if (flg) { //今まで出ていない数字
+      app.hObject[status].push(app.rHO)
+      return app.rHO
+    } else if(app.oRCount < 50) {
+      app.newRandomHobbyNumber(hobbyResultArray, status);
+      // 同じ問題ばかり出てしまう問題
     }
-    return qNArray;
-  },
-
-  setRandomNumber: function(r) {
-    app.qNArray.push(r);
-    localStorage.setItem('qNArray', JSON.stringify(app.qNArray));
   },
 
   calStatus: function(status) {
@@ -201,6 +270,7 @@ var app = {
   showHobby: function() {
     var hobbyArea = document.querySelectorAll('.js-hobbyArea')[0];
     hobbyArea.style.opacity = 0;
+    hobbyArea.style.display = 'block';
     setTimeout( function () {
       hobbyArea.style.opacity = 1;
     }, 200);
@@ -210,7 +280,8 @@ var app = {
       var hobby = app.getHobbyRanks();
       if (typeof hobby !== 'undefined') {
         hobbyArray.push(hobby);
-        app.hobbyLinks[i].innerText = hobby.name;
+        app.hobbyLinks[i].querySelectorAll('.js-hobby-text')[0].innerText = hobby.name;
+        app.hobbyDescs[i].innerText = hobby.status.text
         app.hobbyItems[i].classList.remove('js-none');
       }
     }
@@ -345,14 +416,14 @@ var app = {
         maxStatus.push(key);
       };
     })
-    var r = app.randoms(maxStatus);
+    var r = app.random(maxStatus); //どのステータスを基準にするかランダム選択
     var maxStatus = maxStatus[r];
     var hobbyRankArray = app.hobbyRankArray[min];
     var hobbyResultArray;
     Object.keys(hobbyRankArray).forEach(function(key) {
       hobbyResultArray = hobbyRankArray[key][maxStatus];
     })
-    var r = app.randoms(hobbyResultArray);
+    var r = app.newRandomHobbyNumber(hobbyResultArray, maxStatus);  //選ばれたステータスの中で趣味をランダム選択
     return hobbyResultArray[r];
   }
 }
