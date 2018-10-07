@@ -103,6 +103,7 @@ function updateConfigFilesFrom (sourceConfig, configMunger, locations) {
 
     events.emit('verbose', 'Merging project\'s config.xml into platform-specific android config.xml');
     // Merge changes from app's config.xml into platform's one
+    console.log(locations.configXml)
     var config = new ConfigParser(locations.configXml);
     xmlHelpers.mergeXml(sourceConfig.doc.getroot(),
         config.doc.getroot(), 'android', /* clobber= */true);
@@ -184,7 +185,7 @@ function updateProjectAccordingTo (platformConfig, locations) {
     // Java packages cannot support dashes
     var androidPkgName = (platformConfig.android_packageName() || platformConfig.packageName()).replace(/-/g, '_');
 
-    var manifest = new AndroidManifest(locations.manifest);
+    var manifest = new AndroidManifest('/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/src/main/AndroidManifest.xml');
     var manifestId = manifest.getPackageId();
 
     manifest.getActivity()
@@ -200,7 +201,7 @@ function updateProjectAccordingTo (platformConfig, locations) {
         .write();
 
     // Java file paths shouldn't be hard coded
-    var javaPattern = path.join(locations.javaSrc, manifestId.replace(/\./g, '/'), '*.java');
+    var javaPattern = path.join('/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/src/main/java', manifestId.replace(/\./g, '/'), '*.java');
     var java_files = shell.ls(javaPattern).filter(function (f) {
         return shell.grep(/extends\s+CordovaActivity/g, f);
     });

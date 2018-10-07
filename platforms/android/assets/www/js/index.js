@@ -3027,6 +3027,7 @@ var app = {
   nRCount: 0,
   // 趣味用のランダムカウント
   oRCount: 0,
+  matchPercent: 0,
   baseRankArray: {},
   hobbyRankArray: {},
   userStatusRank: {},
@@ -3048,7 +3049,6 @@ var app = {
   // 'pause', 'resume', etc.
   onDeviceReady: function() {
       this.attachEvent();
-      this.calRank();
   },
 
   // ------------------------------- クリックイベント(controller) -------------------------------------
@@ -3081,6 +3081,7 @@ var app = {
     app.condidateLinks.forEach(function(e, i) {
       e.addEventListener('click', function() {
         if (app.questCount >= 10 && app.questCount < quests.quests.quest.length) {
+          app.calRank();
           app.getUserRankStatus();
           // 趣味の表示開始
           app.showHobby();
@@ -3124,8 +3125,8 @@ var app = {
       })
     })
     // 質問の答え押下時
-    for (j = 0, num = app.condidateLinks.length; j < num; j++) {
-      ripple = app.condidateLinks[j];
+    for (j = 0, num = app.hobbyItems.length; j < num; j++) {
+      ripple = app.hobbyItems[j];
       ripple.addEventListener('mousedown', function(e) {
         ripple = this;//クリックされたボタンを取得
         cover = document.createElement('span');//span作る
@@ -3257,24 +3258,36 @@ var app = {
     hobbyArea.classList.add('js-show');
   },
 
-  // ------------------------------- 全趣味のステータスを元にランク作成 -------------------------------------
+  // ------------------------------- 答えた質問を元にベースランク作成 -------------------------------------
   calRank: function() {
-    var questLength = quests.quests.quest.length
+    var questLength = app.qNArray.length
     var baseStatusMax = {"sociability": 0,"collect": 0,"multiPlay": 0,"selfPolishing": 0,"art": 0,"sport": 0,"it": 0,"margin": 0,"costPerformance": 0};
     var baseStatusMin = {"sociability": 0,"collect": 0,"multiPlay": 0,"selfPolishing": 0,"art": 0,"sport": 0,"it": 0,"margin": 0,"costPerformance": 0};
     for (var i = 0; i < questLength; i++) {
-      var choise = quests.quests.quest[i].choise;
+      var choise = quests.quests.quest[app.qNArray[i]].choise;
       var statusMax = app.getStatusMax(choise);
       var statusMin = app.getStatusMin(choise);
       Object.keys(baseStatusMax).forEach(function(key) {
-        baseStatusMax[key] += statusMax[key];
-        baseStatusMin[key] += statusMin[key];
+        if (statusMax[key] > 0) {
+          baseStatusMax[key] += statusMax[key];
+        } else {
+          baseStatusMax[key] -= statusMax[key];
+        }
+
+        if (statusMin[key] > 0) {
+          baseStatusMax[key] -= statusMax[key];
+        } else {
+          baseStatusMax[key] += statusMax[key];
+        }
       })
     }
-
+    console.log(baseStatusMax)
+    // ステータスの範囲を自然数で表現
     var statusNatural = app.getNaturalStatus(baseStatusMax, baseStatusMin);
+    // ステータスをそれぞれ５分割した時の数を配列として保存
     var rankDistribute = app.getRankDistrbute(statusNatural);
     app.baseRankArray = app.getRankArray(rankDistribute, baseStatusMin);
+    console.log(app.baseRankArray)
   },
 
   getStatusMax: function(choise) {
@@ -3304,7 +3317,11 @@ var app = {
   getNaturalStatus: function(statusMax, statusMin) {
     var resultStatus = {"sociability": 0,"collect": 0,"multiPlay": 0,"selfPolishing": 0,"art": 0,"sport": 0,"it": 0,"margin": 0,"costPerformance": 0};
     Object.keys(statusMax).forEach(function(key) {
-      resultStatus[key] = statusMax[key] - statusMin[key];
+      if (statusMin[key] < 0) {
+        resultStatus[key] = statusMax[key] - statusMin[key];
+      }else {
+        resultStatus[key] = statusMax[key]
+      }
     })
 
     return resultStatus;
@@ -3326,6 +3343,7 @@ var app = {
     var resultStatus = {"sociability": 0,"collect": 0,"multiPlay": 0,"selfPolishing": 0,"art": 0,"sport": 0,"it": 0,"margin": 0,"costPerformance": 0};
     Object.keys(rankDistribute).forEach(function(key) {
       var rankArray = [];
+      rankArray.push(baseStatusMin[key]);
       for (var i = 0; i < 5; i++) {
         rankArray.push(baseStatusMin[key] + rankDistribute[key][i]);
         baseStatusMin[key] += rankDistribute[key][i];
@@ -3353,6 +3371,8 @@ var app = {
       rankArray.push(rank);
     }
     app.hobbyRankArray = rankArray;
+    console.log('--app.hobbyRankArray--')
+    console.log(app.hobbyRankArray)
     var hobbyNumber = app.getHobbyNumber();
     return hobbys.hobbys.hobby[hobbyNumber];
   },
@@ -3360,6 +3380,9 @@ var app = {
   // ------------------------------- ユーザーのステータスのランク付け -------------------------------------
   getUserRankStatus: function() {
     var userStatus = app.getStatus();
+    console.log('--getUserRankStatus--')
+    console.log(userStatus)
+    console.log(app.baseRankArray)
     Object.keys(userStatus).forEach(function(key) {
       for (var i = 0; i < app.baseRankArray[key].length; i++) {
         if (userStatus[key] <= app.baseRankArray[key][i]) {
@@ -3368,6 +3391,7 @@ var app = {
         }
       }
     })
+    console.log(userStatus)
     app.userStatusRank = userStatus;
   },
 
@@ -3376,6 +3400,7 @@ var app = {
     var min = -3;
     Object.keys(app.userStatusRank).forEach(function(key) {
       if (min < app.userStatusRank[key]) {
+        console.log(app.userStatusRank[key])
         min = app.userStatusRank[key];
       };
     })
@@ -3387,7 +3412,11 @@ var app = {
     })
     var r = app.random(maxStatus); //どのステータスを基準にするかランダム選択
     var maxStatus = maxStatus[r];
+    console.log('--app.hobbyRankArray[min]--')
+    console.log(app.hobbyRankArray)
+    console.log(min)
     var hobbyRankArray = app.hobbyRankArray[min];
+    console.log(hobbyRankArray)
     var hobbyResultArray;
     Object.keys(hobbyRankArray).forEach(function(key) {
       hobbyResultArray = hobbyRankArray[key][maxStatus];

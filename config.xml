@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.hobbyapp" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="io.cordova.hobbyapp" version="1.0.9" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>趣味診断</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -19,31 +19,31 @@
     <platform name="android">
         <allow-intent href="market:*" />
         <icon qualifier="ldpi" src="res/icons/android/drawable-ldpi-icon.png" />
-      	<icon qualifier="mdpi" src="res/icons/android/drawable-mdpi-icon.png" />
-      	<icon qualifier="hdpi" src="res/icons/android/drawable-hdpi-icon.png" />
-      	<icon qualifier="xhdpi" src="res/icons/android/drawable-xhdpi-icon.png" />
-      	<icon qualifier="xxhdpi" src="res/icons/android/drawable-xxhdpi-icon.png" />
-      	<icon qualifier="xxxhdpi" src="res/icons/android/drawable-xxxhdpi-icon.png" />
+        <icon qualifier="mdpi" src="res/icons/android/drawable-mdpi-icon.png" />
+        <icon qualifier="hdpi" src="res/icons/android/drawable-hdpi-icon.png" />
+        <icon qualifier="xhdpi" src="res/icons/android/drawable-xhdpi-icon.png" />
+        <icon qualifier="xxhdpi" src="res/icons/android/drawable-xxhdpi-icon.png" />
+        <icon qualifier="xxxhdpi" src="res/icons/android/drawable-xxxhdpi-icon.png" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
         <icon height="57" platform="ios" src="res/icons/ios/icon.png" width="57" />
-      	<icon height="114" platform="ios" src="res/icons/ios/icon@2x.png" width="114" />
-      	<icon height="40" platform="ios" src="res/icons/ios/icon-40.png" width="40" />
-      	<icon height="80" platform="ios" src="res/icons/ios/icon-40@2x.png" width="80" />
-      	<icon height="50" platform="ios" src="res/icons/ios/icon-50.png" width="50" />
-      	<icon height="100" platform="ios" src="res/icons/ios/icon-50@2x.png" width="100" />
-      	<icon height="60" platform="ios" src="res/icons/ios/icon-60.png" width="60" />
-      	<icon height="120" platform="ios" src="res/icons/ios/icon-60@2x.png" width="120" />
-      	<icon height="180" platform="ios" src="res/icons/ios/icon-60@3x.png" width="180" />
-      	<icon height="72" platform="ios" src="res/icons/ios/icon-72.png" width="72" />
-      	<icon height="144" platform="ios" src="res/icons/ios/icon-72@2x.png" width="144" />
-      	<icon height="76" platform="ios" src="res/icons/ios/icon-76.png" width="76" />
-      	<icon height="152" platform="ios" src="res/icons/ios/icon-76@2x.png" width="152" />
-      	<icon height="29" platform="ios" src="res/icons/ios/icon-small.png" width="29" />
-      	<icon height="58" platform="ios" src="res/icons/ios/icon-small@2x.png" width="58" />
-      	<icon height="87" platform="ios" src="res/icons/ios/icon-small@3x.png" width="87" />
+        <icon height="114" platform="ios" src="res/icons/ios/icon@2x.png" width="114" />
+        <icon height="40" platform="ios" src="res/icons/ios/icon-40.png" width="40" />
+        <icon height="80" platform="ios" src="res/icons/ios/icon-40@2x.png" width="80" />
+        <icon height="50" platform="ios" src="res/icons/ios/icon-50.png" width="50" />
+        <icon height="100" platform="ios" src="res/icons/ios/icon-50@2x.png" width="100" />
+        <icon height="60" platform="ios" src="res/icons/ios/icon-60.png" width="60" />
+        <icon height="120" platform="ios" src="res/icons/ios/icon-60@2x.png" width="120" />
+        <icon height="180" platform="ios" src="res/icons/ios/icon-60@3x.png" width="180" />
+        <icon height="72" platform="ios" src="res/icons/ios/icon-72.png" width="72" />
+        <icon height="144" platform="ios" src="res/icons/ios/icon-72@2x.png" width="144" />
+        <icon height="76" platform="ios" src="res/icons/ios/icon-76.png" width="76" />
+        <icon height="152" platform="ios" src="res/icons/ios/icon-76@2x.png" width="152" />
+        <icon height="29" platform="ios" src="res/icons/ios/icon-small.png" width="29" />
+        <icon height="58" platform="ios" src="res/icons/ios/icon-small@2x.png" width="58" />
+        <icon height="87" platform="ios" src="res/icons/ios/icon-small@3x.png" width="87" />
     </platform>
     <engine name="browser" spec="^5.0.3" />
     <engine name="android" spec="^7.0.0" />

@@ -71,6 +71,7 @@ border-spacing: 0;
 
  .start {
   padding-top: 80px;
+  background-color: #F7DA71;
 }
 
  .start h1 {
@@ -300,6 +301,7 @@ border-spacing: 0;
 }
 
  body {
+  background-image: url('../img/sheet.png');
   background-color: #F7DA71;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;

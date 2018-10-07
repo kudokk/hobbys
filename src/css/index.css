@@ -24,6 +24,7 @@
  @import "./module/_hobby.css";
 
 body {
+  background-image: url('../img/sheet.png');
   background-color: #F7DA71;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;

@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.cordova.hobbyapp"
     android:hardwareAccelerated="true"
-    android:versionCode="10002"
-    android:versionName="1.0.2" >
+    android:versionCode="10009"
+    android:versionName="1.0.9" >
 
     <uses-sdk
         android:minSdkVersion="16"
