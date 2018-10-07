@@ -122,9 +122,29 @@ border-spacing: 0;
     left: 15px;
   }
 
- .condidate {
-  margin-top: 40px;
-}
+ .quest__matchWrap {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+  }
+
+ .quest__match {
+    border: 1px solid orange;
+    border-radius: 50%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+            align-items: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    font-size: 13px;
+    height: 30px;
+    width: 30px;
+  }
+
+ .quest__matchPer {
+    font-size: 8px;
+  }
 
  .condidate__title {
     font-size: 18px;

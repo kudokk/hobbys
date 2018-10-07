@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Oct 07 12:00:01 JST 2018
+#Sun Oct 07 20:04:57 JST 2018
 25.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/mipmap-hdpi-v4/icon.png
 25.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
 22.set=ANDROID_RESOURCE

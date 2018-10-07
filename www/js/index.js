@@ -3096,6 +3096,10 @@ var app = {
         app.setStatus(resultStatus);
         app.nRCount = 0;
         app.newRandomNumber();
+        // オススメ度更新
+        var matchValue = app.getMatchPer();
+        app.changeLinear(matchValue);
+        app.changeMtach(matchValue);
       })
     })
 
@@ -3113,6 +3117,8 @@ var app = {
       setTimeout((function() {
         hobbyArea.style.display = 'none';
       }), 1000)
+      app.changeLinear(0);
+      app.changeMtach(0);
     })
 
     // 趣味候補ボタン押下時
@@ -3281,13 +3287,11 @@ var app = {
         }
       })
     }
-    console.log(baseStatusMax)
     // ステータスの範囲を自然数で表現
     var statusNatural = app.getNaturalStatus(baseStatusMax, baseStatusMin);
     // ステータスをそれぞれ５分割した時の数を配列として保存
     var rankDistribute = app.getRankDistrbute(statusNatural);
     app.baseRankArray = app.getRankArray(rankDistribute, baseStatusMin);
-    console.log(app.baseRankArray)
   },
 
   getStatusMax: function(choise) {
@@ -3371,8 +3375,6 @@ var app = {
       rankArray.push(rank);
     }
     app.hobbyRankArray = rankArray;
-    console.log('--app.hobbyRankArray--')
-    console.log(app.hobbyRankArray)
     var hobbyNumber = app.getHobbyNumber();
     return hobbys.hobbys.hobby[hobbyNumber];
   },
@@ -3380,9 +3382,6 @@ var app = {
   // ------------------------------- ユーザーのステータスのランク付け -------------------------------------
   getUserRankStatus: function() {
     var userStatus = app.getStatus();
-    console.log('--getUserRankStatus--')
-    console.log(userStatus)
-    console.log(app.baseRankArray)
     Object.keys(userStatus).forEach(function(key) {
       for (var i = 0; i < app.baseRankArray[key].length; i++) {
         if (userStatus[key] <= app.baseRankArray[key][i]) {
@@ -3391,7 +3390,6 @@ var app = {
         }
       }
     })
-    console.log(userStatus)
     app.userStatusRank = userStatus;
   },
 
@@ -3400,7 +3398,6 @@ var app = {
     var min = -3;
     Object.keys(app.userStatusRank).forEach(function(key) {
       if (min < app.userStatusRank[key]) {
-        console.log(app.userStatusRank[key])
         min = app.userStatusRank[key];
       };
     })
@@ -3412,17 +3409,30 @@ var app = {
     })
     var r = app.random(maxStatus); //どのステータスを基準にするかランダム選択
     var maxStatus = maxStatus[r];
-    console.log('--app.hobbyRankArray[min]--')
-    console.log(app.hobbyRankArray)
-    console.log(min)
-    var hobbyRankArray = app.hobbyRankArray[min];
-    console.log(hobbyRankArray)
+    var hobbyRankArray = app.hobbyRankArray[min + 2];
     var hobbyResultArray;
     Object.keys(hobbyRankArray).forEach(function(key) {
       hobbyResultArray = hobbyRankArray[key][maxStatus];
     })
     var r = app.newRandomHobbyNumber(hobbyResultArray, maxStatus);  //選ばれたステータスの中で趣味をランダム選択
     return hobbyResultArray[r];
+  },
+
+  // ------------------------------- マッチ度を変更 -------------------------------------
+  getMatchPer: function() {
+    var percent = app.qNArray.length / quests.quests.quest.length * 100;
+    percent = Math.floor(percent)
+    return percent
+  },
+
+  changeLinear: function(matchValue) {
+    var questMatch = document.querySelectorAll('.js-questMatch')[0]
+    questMatch.style.backgroundImage = `linear-gradient(to top, orange 0%,  orange ${matchValue}%, #fff ${matchValue}%, #fff 100%)`;
+  },
+
+  changeMtach: function(matchValue) {
+    var questMatch = document.querySelectorAll('.js-questMatch')[0]
+    questMatch.childNodes[0].nodeValue = `${matchValue}`
   }
 }
 

@@ -3027,6 +3027,7 @@ var app = {
   nRCount: 0,
   // 趣味用のランダムカウント
   oRCount: 0,
+  matchPercent: 0,
   baseRankArray: {},
   hobbyRankArray: {},
   userStatusRank: {},
@@ -3048,7 +3049,6 @@ var app = {
   // 'pause', 'resume', etc.
   onDeviceReady: function() {
       this.attachEvent();
-      this.calRank();
   },
 
   // ------------------------------- クリックイベント(controller) -------------------------------------
@@ -3081,6 +3081,7 @@ var app = {
     app.condidateLinks.forEach(function(e, i) {
       e.addEventListener('click', function() {
         if (app.questCount >= 10 && app.questCount < quests.quests.quest.length) {
+          app.calRank();
           app.getUserRankStatus();
           // 趣味の表示開始
           app.showHobby();
@@ -3095,6 +3096,10 @@ var app = {
         app.setStatus(resultStatus);
         app.nRCount = 0;
         app.newRandomNumber();
+        // オススメ度更新
+        var matchValue = app.getMatchPer();
+        app.changeLinear(matchValue);
+        app.changeMtach(matchValue);
       })
     })
 
@@ -3123,9 +3128,9 @@ var app = {
         })
       })
     })
-    // 趣味候補ボタン押下時
-    for (j = 0, num = app.hobbyLinks.length; j < num; j++) {
-      ripple = app.hobbyLinks[j];
+    // 質問の答え押下時
+    for (j = 0, num = app.hobbyItems.length; j < num; j++) {
+      ripple = app.hobbyItems[j];
       ripple.addEventListener('mousedown', function(e) {
         ripple = this;//クリックされたボタンを取得
         cover = document.createElement('span');//span作る
@@ -3148,30 +3153,6 @@ var app = {
         }}, 2000)
       });
     }
-  },
-
-  //位置を取得
-  RippleEffect: function(e) {
-    ripple = this;//クリックされたボタンを取得
-    console.log(ripple)
-   	cover = document.createElement('span');//span作る
-   	coversize = ripple.offsetWidth;//要素の幅を取得
-    loc = ripple.getBoundingClientRect();//絶対座標の取得
-    x = e.pageX - loc.left - window.pageXOffset - (coversize / 2);
-    y = e.pageY - loc.top - window.pageYOffset - (coversize / 2);
-    pos = 'top:' + y + 'px; left:' + x + 'px; height:' + coversize + 'px; width:' + coversize + 'px;';
-
-    //spanを追加
-    ripple.appendChild(cover);
-    cover.setAttribute('style', pos);
-    cover.setAttribute('class', 'rp-effect');//クラス名追加
-
-    //しばらくしたらspanを削除
-    setTimeout(function() {
-      var list = document.getElementsByClassName( "rp-effect" ) ;
-      for(var i =list.length-1;i>=0; i--){//末尾から順にすべて削除
-      	list[i].parentNode.removeChild(list[i]);
-    }}, 2000)
   },
 
   nextQuest: function(r) {
@@ -3281,22 +3262,32 @@ var app = {
     hobbyArea.classList.add('js-show');
   },
 
-  // ------------------------------- 全趣味のステータスを元にランク作成 -------------------------------------
+  // ------------------------------- 答えた質問を元にベースランク作成 -------------------------------------
   calRank: function() {
-    var questLength = quests.quests.quest.length
+    var questLength = app.qNArray.length
     var baseStatusMax = {"sociability": 0,"collect": 0,"multiPlay": 0,"selfPolishing": 0,"art": 0,"sport": 0,"it": 0,"margin": 0,"costPerformance": 0};
     var baseStatusMin = {"sociability": 0,"collect": 0,"multiPlay": 0,"selfPolishing": 0,"art": 0,"sport": 0,"it": 0,"margin": 0,"costPerformance": 0};
     for (var i = 0; i < questLength; i++) {
-      var choise = quests.quests.quest[i].choise;
+      var choise = quests.quests.quest[app.qNArray[i]].choise;
       var statusMax = app.getStatusMax(choise);
       var statusMin = app.getStatusMin(choise);
       Object.keys(baseStatusMax).forEach(function(key) {
-        baseStatusMax[key] += statusMax[key];
-        baseStatusMin[key] += statusMin[key];
+        if (statusMax[key] > 0) {
+          baseStatusMax[key] += statusMax[key];
+        } else {
+          baseStatusMax[key] -= statusMax[key];
+        }
+
+        if (statusMin[key] > 0) {
+          baseStatusMax[key] -= statusMax[key];
+        } else {
+          baseStatusMax[key] += statusMax[key];
+        }
       })
     }
-
+    // ステータスの範囲を自然数で表現
     var statusNatural = app.getNaturalStatus(baseStatusMax, baseStatusMin);
+    // ステータスをそれぞれ５分割した時の数を配列として保存
     var rankDistribute = app.getRankDistrbute(statusNatural);
     app.baseRankArray = app.getRankArray(rankDistribute, baseStatusMin);
   },
@@ -3328,7 +3319,11 @@ var app = {
   getNaturalStatus: function(statusMax, statusMin) {
     var resultStatus = {"sociability": 0,"collect": 0,"multiPlay": 0,"selfPolishing": 0,"art": 0,"sport": 0,"it": 0,"margin": 0,"costPerformance": 0};
     Object.keys(statusMax).forEach(function(key) {
-      resultStatus[key] = statusMax[key] - statusMin[key];
+      if (statusMin[key] < 0) {
+        resultStatus[key] = statusMax[key] - statusMin[key];
+      }else {
+        resultStatus[key] = statusMax[key]
+      }
     })
 
     return resultStatus;
@@ -3350,6 +3345,7 @@ var app = {
     var resultStatus = {"sociability": 0,"collect": 0,"multiPlay": 0,"selfPolishing": 0,"art": 0,"sport": 0,"it": 0,"margin": 0,"costPerformance": 0};
     Object.keys(rankDistribute).forEach(function(key) {
       var rankArray = [];
+      rankArray.push(baseStatusMin[key]);
       for (var i = 0; i < 5; i++) {
         rankArray.push(baseStatusMin[key] + rankDistribute[key][i]);
         baseStatusMin[key] += rankDistribute[key][i];
@@ -3418,6 +3414,23 @@ var app = {
     })
     var r = app.newRandomHobbyNumber(hobbyResultArray, maxStatus);  //選ばれたステータスの中で趣味をランダム選択
     return hobbyResultArray[r];
+  },
+
+  // ------------------------------- マッチ度を変更 -------------------------------------
+  getMatchPer: function() {
+    var percent = app.qNArray.length / quests.quests.quest.length * 100;
+    percent = Math.floor(percent)
+    return percent
+  },
+
+  changeLinear: function(matchValue) {
+    var questMatch = document.querySelectorAll('.js-questMatch')[0]
+    questMatch.style.backgroundImage = `linear-gradient(to top, orange 0%,  orange ${matchValue}%, #fff ${matchValue}%, #fff 100%)`;
+  },
+
+  changeMtach: function(matchValue) {
+    var questMatch = document.querySelectorAll('.js-questMatch')[0]
+    questMatch.childNodes[0].nodeValue = `${matchValue}`
   }
 }
 
