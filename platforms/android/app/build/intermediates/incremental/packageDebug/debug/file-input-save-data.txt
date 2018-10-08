@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Oct 07 20:04:57 JST 2018
+#Mon Oct 08 11:32:04 JST 2018
 25.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/mipmap-hdpi-v4/icon.png
 25.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
 22.set=ANDROID_RESOURCE
@@ -9,7 +9,7 @@
 11.set=ANDROID_RESOURCE
 27.set=ANDROID_RESOURCE
 30.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/mipmap-xhdpi-v4/icon.png
-14.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/mipmap-mdpi-v4/icon.png
+14.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable-port-xhdpi-v4/screen.png
 30.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
 14.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
 16.set=ANDROID_RESOURCE
@@ -35,7 +35,7 @@ count=37
 7.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/mipmap-xxhdpi-v4/icon.png
 7.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
 15.set=ANDROID_RESOURCE
-27.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/mipmap-ldpi-v4/icon.png
+27.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable-land-ldpi-v4/screen.png
 27.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
 1.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/assets/debug/www/js/index.js
 1.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/assets/debug
@@ -56,7 +56,7 @@ count=37
 25.set=ANDROID_RESOURCE
 17.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
 10.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable-port-ldpi-v4/screen.png
-28.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable-land-ldpi-v4/screen.png
+28.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/mipmap-ldpi-v4/icon.png
 10.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
 28.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
 14.set=ANDROID_RESOURCE
@@ -106,7 +106,7 @@ count=37
 35.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/assets/debug
 28.set=ANDROID_RESOURCE
 17.set=ANDROID_RESOURCE
-13.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable-port-xhdpi-v4/screen.png
+13.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/mipmap-mdpi-v4/icon.png
 13.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
 5.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/assets/debug/www/cordova.js
 3.set=ASSET
