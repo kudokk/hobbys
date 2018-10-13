@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Oct 08 11:32:12 JST 2018
+#Sat Oct 13 19:29:53 JST 2018
 25.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/xml/config.xml
 25.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_
 22.set=ASSET
@@ -8,7 +8,7 @@
 36.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/assets/release
 11.set=ASSET
 27.set=ANDROID_RESOURCE
-30.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-land-xhdpi-v4/screen.png
+30.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-land-xxxhdpi-v4/screen.png
 14.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_/AndroidManifest.xml
 30.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_
 14.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_
@@ -28,7 +28,7 @@ count=37
 20.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/assets/release
 10.set=DEX
 31.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/mipmap-hdpi-v4/icon.png
-15.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-land-mdpi-v4/screen.png
+15.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-land-hdpi-v4/screen.png
 31.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_
 15.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_
 26.set=ASSET
@@ -44,8 +44,8 @@ count=37
 21.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/mipmap-xxxhdpi-v4/icon.png
 21.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_
 20.set=ASSET
-32.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/mipmap-xxhdpi-v4/icon.png
-16.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-land-hdpi-v4/screen.png
+32.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-land-xxhdpi-v4/screen.png
+16.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-land-mdpi-v4/screen.png
 32.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_
 6.set=ANDROID_RESOURCE
 16.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_
@@ -67,7 +67,7 @@ count=37
 0.set=ANDROID_RESOURCE
 19.set=ASSET
 30.set=ANDROID_RESOURCE
-33.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-land-xxhdpi-v4/screen.png
+33.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/mipmap-xxhdpi-v4/icon.png
 33.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_
 9.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/mipmap-xhdpi-v4/icon.png
 5.set=ANDROID_RESOURCE
@@ -76,7 +76,7 @@ count=37
 35.set=ASSET
 18.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/assets/release
 11.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/assets/release/www/cordova-js-src/exec.js
-29.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-land-xxxhdpi-v4/screen.png
+29.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_/res/drawable-land-xhdpi-v4/screen.png
 11.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/assets/release
 29.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/release/resources-release.ap_
 24.set=ASSET

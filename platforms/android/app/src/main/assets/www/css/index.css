@@ -168,6 +168,7 @@ border-spacing: 0;
  .condidate__link {
     border: 1px solid #000;
     border-radius: 3px;
+    box-shadow: 0 2px 4px #e6e6e6;
     display: inline-block;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -221,6 +222,7 @@ border-spacing: 0;
  .hobby__link {
     background-color: #fcf9ef;
     border: 1px solid #000;
+    box-shadow: 0 2px 4px #e6e6e6;
     display: inline-block;
     font-size: 14px;
     padding-top: 20px;
@@ -281,7 +283,7 @@ border-spacing: 0;
     margin-right: 5%;
   }
 
- .hobby__reset {
+ .hobby__button {
     border: 1px solid #000;
     border-radius: 50%;
     height: 40px;
@@ -318,6 +320,10 @@ border-spacing: 0;
     -webkit-transform: scale(2.0);
             transform: scale(2.0);
   }
+}
+
+ .mg16r {
+  margin-right: 12px;
 }
 
  body {

@@ -22,6 +22,7 @@
  @import "./module/_quest.css";
  @import "./module/_condidate.css";
  @import "./module/_hobby.css";
+ @import "./util/_margin.css";
 
 body {
   background-image: url('../img/sheet.png');

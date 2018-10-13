@@ -1758,6 +1758,100 @@
             }
           }
         ]
+      },
+      {
+        "ask": "テレビはよく観る？",
+        "choise": [
+          {
+            "text": "いつも観ている",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": -1,
+              "selfPolishing": -2,
+              "art": -1,
+              "sport": -1,
+              "it": 1,
+              "margin": 2,
+              "costPerformance": 1
+            }
+          },
+          {
+            "text": "たまに観る",
+            "status": {
+              "sociability": 0,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": -1,
+              "art": 0,
+              "sport": 0,
+              "it": 1,
+              "margin": 1,
+              "costPerformance": 1
+            }
+          },
+          {
+            "text": "全然",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 2,
+              "art": 1,
+              "sport": 0,
+              "it": 1,
+              "margin": -1,
+              "costPerformance": 0
+            }
+          }
+        ]
+      },
+      {
+        "ask": "海外旅行はしたことある？",
+        "choise": [
+          {
+            "text": "何回も",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 2,
+              "art": 1,
+              "sport": 0,
+              "it": 0,
+              "margin": 2,
+              "costPerformance": 1
+            }
+          },
+          {
+            "text": "１度だけ",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 1,
+              "art": 0,
+              "sport": 0,
+              "it": 0,
+              "margin": 1,
+              "costPerformance": 1
+            }
+          },
+          {
+            "text": "まだ１度もない",
+            "status": {
+              "sociability": -1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": -1,
+              "sport": 0,
+              "it": 0,
+              "margin": 2,
+              "costPerformance": 2
+            }
+          }
+        ]
       }
     ]
   }

@@ -1251,6 +1251,607 @@
             }
           }
         ]
+      },
+      {
+        "ask": "小さい頃どう遊ぶのが好きだった？",
+        "choise": [
+          {
+            "text": "屋外で駆け回って遊ぶ",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 1,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 2,
+              "it": -1,
+              "margin": 2,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "何か収集する",
+            "status": {
+              "sociability": -1,
+              "collect": 2,
+              "multiPlay": 0,
+              "selfPolishing": 1,
+              "art": 1,
+              "sport": -1,
+              "it": 1,
+              "margin": 0,
+              "costPerformance": -1
+            }
+          },
+          {
+            "text": "兄弟や友人についていって遊ぶ",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 2,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 1,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "お絵かき、パズルなど",
+            "status": {
+              "sociability": 1,
+              "collect": 1,
+              "multiPlay": -2,
+              "selfPolishing": 1,
+              "art": 2,
+              "sport": -1,
+              "it": 1,
+              "margin": -2,
+              "costPerformance": -1
+            }
+          }
+        ]
+      },
+      {
+        "ask": "外人に話しかけられたが言葉がわからない！",
+        "choise": [
+          {
+            "text": "言葉が理解できないと伝える",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 1,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "何とか手を尽くして助ける",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 2,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 2,
+              "it": 0,
+              "margin": -1,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "とりあえず話だけ聞いてみる",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 2,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "無視して素通り",
+            "status": {
+              "sociability": -2,
+              "collect": 0,
+              "multiPlay": -2,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          }
+        ]
+      },
+      {
+        "ask": "体を動かしてないと落ち着かない",
+        "choise": [
+          {
+            "text": "落ち着かない",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 2,
+              "it": -2,
+              "margin": -1,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "そうでもない",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 1,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "むしろ動きたくない",
+            "status": {
+              "sociability": -1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": -2,
+              "it": 2,
+              "margin": 1,
+              "costPerformance": 0
+            }
+          }
+        ]
+      },
+      {
+        "ask": "100万円、手に入ったら何に使いますか？",
+        "choise": [
+          {
+            "text": "お買い物",
+            "status": {
+              "sociability": 2,
+              "collect": 1,
+              "multiPlay": 0,
+              "selfPolishing": 1,
+              "art": 0,
+              "sport": 1,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": -2
+            }
+          },
+          {
+            "text": "貯金",
+            "status": {
+              "sociability": -1,
+              "collect": 1,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": -1,
+              "it": 0,
+              "margin": -1,
+              "costPerformance": 2
+            }
+          },
+          {
+            "text": "グルメ・旅行",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 1,
+              "art": 0,
+              "sport": 0,
+              "it": -1,
+              "margin": -1,
+              "costPerformance": -1
+            }
+          },
+          {
+            "text": "自己投資",
+            "status": {
+              "sociability": 1,
+              "collect": 1,
+              "multiPlay": 0,
+              "selfPolishing": 2,
+              "art": 0,
+              "sport": 0,
+              "it": 1,
+              "margin": 0,
+              "costPerformance": -1
+            }
+          }
+        ]
+      },
+      {
+        "ask": "映画やドラマを観て泣いたことある？",
+        "choise": [
+          {
+            "text": "いつも泣いてしまう",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 2,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "稀に泣いてしまうこともある",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 1,
+              "sport": 0,
+              "it": 0,
+              "margin": -0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "全然",
+            "status": {
+              "sociability": -2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": -2,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          }
+        ]
+      },
+      {
+        "ask": "わからないことがあった時どうする？",
+        "choise": [
+          {
+            "text": "とりあえずネットで検索",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 0,
+              "it": 2,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "身近な人に疑問をぶつけてみる",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 2,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 0,
+              "it": -1,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "自力で考え続ける",
+            "status": {
+              "sociability": -1,
+              "collect": 0,
+              "multiPlay": -1,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 0,
+              "it": -1,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "すぐに別のことを考える",
+            "status": {
+              "sociability": -2,
+              "collect": 0,
+              "multiPlay": -1,
+              "selfPolishing": -1,
+              "art": 0,
+              "sport": 0,
+              "it": -2,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          }
+        ]
+      },
+      {
+        "ask": "「普通」という言葉から連想するものは？",
+        "choise": [
+          {
+            "text": "地味・退屈",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": -1,
+              "sport": 0,
+              "it": -1,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "平和・幸福",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 2,
+              "sport": 0,
+              "it": 0,
+              "margin": 1,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "無難・安全",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 1,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          }
+        ]
+      },
+      {
+        "ask": "次の中で好きな動物は？",
+        "choise": [
+          {
+            "text": "パンダ",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "フクロウ",
+            "status": {
+              "sociability": 1,
+              "collect": 1,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "狼",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 1,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "コウモリ",
+            "status": {
+              "sociability": -1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 2,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          }
+        ]
+      },
+      {
+        "ask": "無料で行けるツアーならどれを選ぶ？",
+        "choise": [
+          {
+            "text": "豪華客船で世界一周ツアー",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 1,
+              "art": 1,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": -2
+            }
+          },
+          {
+            "text": "食べ放題ツアー",
+            "status": {
+              "sociability": 1,
+              "collect": -1,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 2,
+              "it": 0,
+              "margin": -1,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "宇宙の旅",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 2,
+              "art": 2,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 2
+            }
+          },
+          {
+            "text": "どこにもいかない",
+            "status": {
+              "sociability": -2,
+              "collect": 0,
+              "multiPlay": -1,
+              "selfPolishing": -1,
+              "art": 0,
+              "sport": 0,
+              "it": 1,
+              "margin": 2,
+              "costPerformance": 2
+            }
+          }
+        ]
+      },
+      {
+        "ask": "テレビはよく観る？",
+        "choise": [
+          {
+            "text": "いつも観ている",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": -1,
+              "selfPolishing": -2,
+              "art": -1,
+              "sport": -1,
+              "it": 1,
+              "margin": 2,
+              "costPerformance": 1
+            }
+          },
+          {
+            "text": "たまに観る",
+            "status": {
+              "sociability": 0,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": -1,
+              "art": 0,
+              "sport": 0,
+              "it": 1,
+              "margin": 1,
+              "costPerformance": 1
+            }
+          },
+          {
+            "text": "全然",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 2,
+              "art": 1,
+              "sport": 0,
+              "it": 1,
+              "margin": -1,
+              "costPerformance": 0
+            }
+          }
+        ]
+      },
+      {
+        "ask": "海外旅行はしたことある？",
+        "choise": [
+          {
+            "text": "何回も",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 2,
+              "art": 1,
+              "sport": 0,
+              "it": 0,
+              "margin": 2,
+              "costPerformance": 1
+            }
+          },
+          {
+            "text": "１度だけ",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 1,
+              "art": 0,
+              "sport": 0,
+              "it": 0,
+              "margin": 1,
+              "costPerformance": 1
+            }
+          },
+          {
+            "text": "まだ１度もない",
+            "status": {
+              "sociability": -1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": -1,
+              "sport": 0,
+              "it": 0,
+              "margin": 2,
+              "costPerformance": 2
+            }
+          }
+        ]
       }
     ]
   }

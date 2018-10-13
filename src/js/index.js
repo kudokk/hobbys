@@ -35,6 +35,8 @@ var app = {
   // 趣味用のランダムカウント
   oRCount: 0,
   matchPercent: 0,
+  // 質問に答え終わったフラグ
+  questEndFlg: false,
   baseRankArray: {},
   hobbyRankArray: {},
   userStatusRank: {},
@@ -66,7 +68,8 @@ var app = {
     var questArea = document.querySelectorAll('.js-questArea');
     var overlay = document.querySelectorAll('.js-overlay');
     var hobbyArea = document.querySelectorAll('.js-hobbyArea');
-    var reset = document.querySelectorAll('.hobby__reset');
+    var reset = document.querySelectorAll('.js-reset');
+    var back = document.querySelectorAll('.js-back');
 
     start = Array.prototype.slice.call(start);
     main = Array.prototype.slice.call(main);
@@ -95,8 +98,12 @@ var app = {
         }else if (app.questCount === quests.quests.quest.length) {
           // 終了のお知らせ
           console.log('終了');
+          app.questEndFlg = true;
           questArea[0].classList.add('js-none');
           overlay[0].classList.add('js-none');
+          app.hobbyDescs.forEach(function(e, i) {
+            e.classList.remove('js-none');
+          })
         }
         var status = quests.quests.quest[app.rQN].choise[i].status;
         var resultStatus = app.calStatus(status);
@@ -128,6 +135,17 @@ var app = {
       app.changeMtach(0);
     })
 
+    // 戻るボタン押下時
+    back[0].addEventListener('click', function(e, i) {
+      questArea[0].classList.remove('js-none');
+      app.hobbyDescs.forEach(function(e, i) {
+        e.classList.add('js-none');
+      })
+      if (!app.questEndFlg) {
+        back[0].classList.add('js-none');
+      }
+    })
+
     // 趣味候補ボタン押下時
     app.hobbyLinks.forEach(function(e, i) {
       e.addEventListener('click', function(ev, ix) {
@@ -135,6 +153,7 @@ var app = {
         app.hobbyDescs.forEach(function(e, i) {
           e.classList.remove('js-none');
         })
+        back[0].classList.remove('js-none');
       })
     })
     // 質問の答え押下時
@@ -206,6 +225,8 @@ var app = {
       app.qNArray.push(app.rQN)
       app.nextQuest();
     } else if(app.nRCount < 50) {
+
+
       app.newRandomNumber();
       // 同じ問題ばかり出てしまう問題
     }
@@ -219,7 +240,7 @@ var app = {
     if (flg) { //今まで出ていない数字
       app.hObject[status].push(app.rHO)
       return app.rHO
-    } else if(app.oRCount < 50) {
+    } else if(app.oRCount < 30) {
       app.newRandomHobbyNumber(hobbyResultArray, status);
       // 同じ問題ばかり出てしまう問題
     }
@@ -408,21 +429,35 @@ var app = {
         min = app.userStatusRank[key];
       };
     })
+    return app.getNextHobby(min);
+  },
+
+  getNextHobby: function(min) {
     var maxStatus = [];
     Object.keys(app.userStatusRank).forEach(function(key) {
       if (min === app.userStatusRank[key]) {
         maxStatus.push(key);
       };
     })
-    var r = app.random(maxStatus); //どのステータスを基準にするかランダム選択
-    var maxStatus = maxStatus[r];
-    var hobbyRankArray = app.hobbyRankArray[min + 2];
-    var hobbyResultArray;
-    Object.keys(hobbyRankArray).forEach(function(key) {
-      hobbyResultArray = hobbyRankArray[key][maxStatus];
-    })
-    var r = app.newRandomHobbyNumber(hobbyResultArray, maxStatus);  //選ばれたステータスの中で趣味をランダム選択
-    return hobbyResultArray[r];
+    if (typeof maxStatus !== 'undefined') {
+      var r = app.random(maxStatus); //どのステータスを基準にするかランダム選択
+      var maxStatus = maxStatus[r];
+      var hobbyRankArray = app.hobbyRankArray[min + 2];
+      var hobbyResultArray;
+      Object.keys(hobbyRankArray).forEach(function(key) {
+        hobbyResultArray = hobbyRankArray[key][maxStatus];
+      })
+      if (typeof maxStatus === 'undefined') {
+        return 0
+      }
+      var r = app.newRandomHobbyNumber(hobbyResultArray, maxStatus);  //選ばれたステータスの中で趣味をランダム選択
+      if(typeof r === "undefined" && min !== -2) {
+        min -= 1;
+        app.getNextHobby(min)
+      }
+      return hobbyResultArray[r]
+    }
+    return 0
   },
 
   // ------------------------------- マッチ度を変更 -------------------------------------
