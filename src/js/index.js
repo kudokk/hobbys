@@ -142,6 +142,9 @@ var app = {
       app.hobbyDescs.forEach(function(e, i) {
         e.classList.add('js-none');
       })
+      app.hobbySearchs.forEach(function(e, i) {
+        e.classList.remove('js-none');
+      })
       if (!app.questEndFlg) {
         back[0].classList.add('js-none');
       }
