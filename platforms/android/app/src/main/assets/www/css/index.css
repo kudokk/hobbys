@@ -202,7 +202,7 @@ border-spacing: 0;
   background-color: #fff;
   border-top: 1px solid #e6e6e6;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
   transition: opacity 1s;
   opacity: 0;
   max-height: 0;
@@ -216,17 +216,21 @@ border-spacing: 0;
 
  .hobby__item {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
+
+ .hobby__item:last-of-type {
+      margin-bottom: 10px;
+    }
 
  .hobby__link {
     background-color: #fcf9ef;
     border: 1px solid #000;
     box-shadow: 0 2px 4px #e6e6e6;
     display: inline-block;
-    font-size: 14px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 13px;
     width: 90%;
     position: relative;
     transition: .2s;
@@ -266,13 +270,15 @@ border-spacing: 0;
   }
 
  .hobby__desc {
-    border-bottom: 1px solid #e6e6e6;
     font-size: 16px;
     line-height: 1.4;
     text-align: left;
     width: 90%;
     margin: 5px auto;
-    padding-bottom: 5px;
+  }
+
+ .hobby__search {
+    font-size: 14px;
   }
 
  .hobby__resetButton {
@@ -280,14 +286,15 @@ border-spacing: 0;
     display: flex;
     -webkit-justify-content: flex-end;
             justify-content: flex-end;
-    margin-right: 5%;
+    padding-top: 10px;
+    border-top: 1px solid #e6e6e6;
   }
 
  .hobby__button {
     border: 1px solid #000;
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
@@ -324,6 +331,10 @@ border-spacing: 0;
 
  .mg16r {
   margin-right: 12px;
+}
+
+ .mg20r {
+  margin-right: 20px;
 }
 
  body {

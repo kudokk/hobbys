@@ -1852,6 +1852,53 @@
             }
           }
         ]
+      },
+      {
+        "ask": "早寝早起きは得意？",
+        "choise": [
+          {
+            "text": "苦手",
+            "status": {
+              "sociability": 0,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": -1,
+              "art": 0,
+              "sport": -1,
+              "it": 0,
+              "margin": -2,
+              "costPerformance": -1
+            }
+          },
+          {
+            "text": "たまになら",
+            "status": {
+              "sociability": 0,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 1,
+              "art": 0,
+              "sport": 0,
+              "it": 0,
+              "margin": 1,
+              "costPerformance": 1
+            }
+          },
+          {
+            "text": "得意",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 2,
+              "art": 1,
+              "sport": 0,
+              "it": 0,
+              "margin": 2,
+              "costPerformance": 2
+            }
+          }
+        ]
       }
     ]
   }

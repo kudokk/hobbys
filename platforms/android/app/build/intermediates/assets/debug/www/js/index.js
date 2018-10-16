@@ -464,7 +464,7 @@ module.exports={
           "it": -2,
           "margin": 1,
           "costPerformance": 1,
-          "text": "■\n物を片付けることでスペースが広くなり、暮らしの動線がスムーズになって効率が良くなる！？\n環境を整えて心を落ち着かせよう"
+          "text": "■整理整頓\n物を片付けることでスペースが広くなり、暮らしの動線がスムーズになって効率が良くなる！？\n環境を整えて心を落ち着かせよう"
         }
       },
       {
@@ -2985,6 +2985,607 @@ module.exports={
             }
           }
         ]
+      },
+      {
+        "ask": "小さい頃どう遊ぶのが好きだった？",
+        "choise": [
+          {
+            "text": "屋外で駆け回って遊ぶ",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 1,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 2,
+              "it": -1,
+              "margin": 2,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "何か収集する",
+            "status": {
+              "sociability": -1,
+              "collect": 2,
+              "multiPlay": 0,
+              "selfPolishing": 1,
+              "art": 1,
+              "sport": -1,
+              "it": 1,
+              "margin": 0,
+              "costPerformance": -1
+            }
+          },
+          {
+            "text": "兄弟や友人についていって遊ぶ",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 2,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 1,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "お絵かき、パズルなど",
+            "status": {
+              "sociability": 1,
+              "collect": 1,
+              "multiPlay": -2,
+              "selfPolishing": 1,
+              "art": 2,
+              "sport": -1,
+              "it": 1,
+              "margin": -2,
+              "costPerformance": -1
+            }
+          }
+        ]
+      },
+      {
+        "ask": "外人に話しかけられたが言葉がわからない！",
+        "choise": [
+          {
+            "text": "言葉が理解できないと伝える",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 1,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "何とか手を尽くして助ける",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 2,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 2,
+              "it": 0,
+              "margin": -1,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "とりあえず話だけ聞いてみる",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 2,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "無視して素通り",
+            "status": {
+              "sociability": -2,
+              "collect": 0,
+              "multiPlay": -2,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          }
+        ]
+      },
+      {
+        "ask": "体を動かしてないと落ち着かない",
+        "choise": [
+          {
+            "text": "落ち着かない",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 2,
+              "it": -2,
+              "margin": -1,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "そうでもない",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 1,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "むしろ動きたくない",
+            "status": {
+              "sociability": -1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": -2,
+              "it": 2,
+              "margin": 1,
+              "costPerformance": 0
+            }
+          }
+        ]
+      },
+      {
+        "ask": "100万円、手に入ったら何に使いますか？",
+        "choise": [
+          {
+            "text": "お買い物",
+            "status": {
+              "sociability": 2,
+              "collect": 1,
+              "multiPlay": 0,
+              "selfPolishing": 1,
+              "art": 0,
+              "sport": 1,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": -2
+            }
+          },
+          {
+            "text": "貯金",
+            "status": {
+              "sociability": -1,
+              "collect": 1,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": -1,
+              "it": 0,
+              "margin": -1,
+              "costPerformance": 2
+            }
+          },
+          {
+            "text": "グルメ・旅行",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 1,
+              "art": 0,
+              "sport": 0,
+              "it": -1,
+              "margin": -1,
+              "costPerformance": -1
+            }
+          },
+          {
+            "text": "自己投資",
+            "status": {
+              "sociability": 1,
+              "collect": 1,
+              "multiPlay": 0,
+              "selfPolishing": 2,
+              "art": 0,
+              "sport": 0,
+              "it": 1,
+              "margin": 0,
+              "costPerformance": -1
+            }
+          }
+        ]
+      },
+      {
+        "ask": "映画やドラマを観て泣いたことある？",
+        "choise": [
+          {
+            "text": "いつも泣いてしまう",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 2,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "稀に泣いてしまうこともある",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 1,
+              "sport": 0,
+              "it": 0,
+              "margin": -0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "全然",
+            "status": {
+              "sociability": -2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": -2,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          }
+        ]
+      },
+      {
+        "ask": "わからないことがあった時どうする？",
+        "choise": [
+          {
+            "text": "とりあえずネットで検索",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 0,
+              "it": 2,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "身近な人に疑問をぶつけてみる",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 2,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 0,
+              "it": -1,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "自力で考え続ける",
+            "status": {
+              "sociability": -1,
+              "collect": 0,
+              "multiPlay": -1,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 0,
+              "it": -1,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "すぐに別のことを考える",
+            "status": {
+              "sociability": -2,
+              "collect": 0,
+              "multiPlay": -1,
+              "selfPolishing": -1,
+              "art": 0,
+              "sport": 0,
+              "it": -2,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          }
+        ]
+      },
+      {
+        "ask": "「普通」という言葉から連想するものは？",
+        "choise": [
+          {
+            "text": "地味・退屈",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": -1,
+              "sport": 0,
+              "it": -1,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "平和・幸福",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 2,
+              "sport": 0,
+              "it": 0,
+              "margin": 1,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "無難・安全",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 1,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          }
+        ]
+      },
+      {
+        "ask": "次の中で好きな動物は？",
+        "choise": [
+          {
+            "text": "パンダ",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "フクロウ",
+            "status": {
+              "sociability": 1,
+              "collect": 1,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "狼",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 1,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "コウモリ",
+            "status": {
+              "sociability": -1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 2,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 0
+            }
+          }
+        ]
+      },
+      {
+        "ask": "無料で行けるツアーならどれを選ぶ？",
+        "choise": [
+          {
+            "text": "豪華客船で世界一周ツアー",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 1,
+              "art": 1,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": -2
+            }
+          },
+          {
+            "text": "食べ放題ツアー",
+            "status": {
+              "sociability": 1,
+              "collect": -1,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": 0,
+              "sport": 2,
+              "it": 0,
+              "margin": -1,
+              "costPerformance": 0
+            }
+          },
+          {
+            "text": "宇宙の旅",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 2,
+              "art": 2,
+              "sport": 0,
+              "it": 0,
+              "margin": 0,
+              "costPerformance": 2
+            }
+          },
+          {
+            "text": "どこにもいかない",
+            "status": {
+              "sociability": -2,
+              "collect": 0,
+              "multiPlay": -1,
+              "selfPolishing": -1,
+              "art": 0,
+              "sport": 0,
+              "it": 1,
+              "margin": 2,
+              "costPerformance": 2
+            }
+          }
+        ]
+      },
+      {
+        "ask": "テレビはよく観る？",
+        "choise": [
+          {
+            "text": "いつも観ている",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": -1,
+              "selfPolishing": -2,
+              "art": -1,
+              "sport": -1,
+              "it": 1,
+              "margin": 2,
+              "costPerformance": 1
+            }
+          },
+          {
+            "text": "たまに観る",
+            "status": {
+              "sociability": 0,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": -1,
+              "art": 0,
+              "sport": 0,
+              "it": 1,
+              "margin": 1,
+              "costPerformance": 1
+            }
+          },
+          {
+            "text": "全然",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 2,
+              "art": 1,
+              "sport": 0,
+              "it": 1,
+              "margin": -1,
+              "costPerformance": 0
+            }
+          }
+        ]
+      },
+      {
+        "ask": "海外旅行はしたことある？",
+        "choise": [
+          {
+            "text": "何回も",
+            "status": {
+              "sociability": 2,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 2,
+              "art": 1,
+              "sport": 0,
+              "it": 0,
+              "margin": 2,
+              "costPerformance": 1
+            }
+          },
+          {
+            "text": "１度だけ",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 1,
+              "art": 0,
+              "sport": 0,
+              "it": 0,
+              "margin": 1,
+              "costPerformance": 1
+            }
+          },
+          {
+            "text": "まだ１度もない",
+            "status": {
+              "sociability": -1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 0,
+              "art": -1,
+              "sport": 0,
+              "it": 0,
+              "margin": 2,
+              "costPerformance": 2
+            }
+          }
+        ]
       }
     ]
   }
@@ -3028,6 +3629,8 @@ var app = {
   // 趣味用のランダムカウント
   oRCount: 0,
   matchPercent: 0,
+  // 質問に答え終わったフラグ
+  questEndFlg: false,
   baseRankArray: {},
   hobbyRankArray: {},
   userStatusRank: {},
@@ -3059,7 +3662,8 @@ var app = {
     var questArea = document.querySelectorAll('.js-questArea');
     var overlay = document.querySelectorAll('.js-overlay');
     var hobbyArea = document.querySelectorAll('.js-hobbyArea');
-    var reset = document.querySelectorAll('.hobby__reset');
+    var reset = document.querySelectorAll('.js-reset');
+    var back = document.querySelectorAll('.js-back');
 
     start = Array.prototype.slice.call(start);
     main = Array.prototype.slice.call(main);
@@ -3088,8 +3692,12 @@ var app = {
         }else if (app.questCount === quests.quests.quest.length) {
           // 終了のお知らせ
           console.log('終了');
+          app.questEndFlg = true;
           questArea[0].classList.add('js-none');
           overlay[0].classList.add('js-none');
+          app.hobbyDescs.forEach(function(e, i) {
+            e.classList.remove('js-none');
+          })
         }
         var status = quests.quests.quest[app.rQN].choise[i].status;
         var resultStatus = app.calStatus(status);
@@ -3117,6 +3725,19 @@ var app = {
       setTimeout((function() {
         hobbyArea.style.display = 'none';
       }), 1000)
+      app.changeLinear(0);
+      app.changeMtach(0);
+    })
+
+    // 戻るボタン押下時
+    back[0].addEventListener('click', function(e, i) {
+      questArea[0].classList.remove('js-none');
+      app.hobbyDescs.forEach(function(e, i) {
+        e.classList.add('js-none');
+      })
+      if (!app.questEndFlg) {
+        back[0].classList.add('js-none');
+      }
     })
 
     // 趣味候補ボタン押下時
@@ -3126,6 +3747,7 @@ var app = {
         app.hobbyDescs.forEach(function(e, i) {
           e.classList.remove('js-none');
         })
+        back[0].classList.remove('js-none');
       })
     })
     // 質問の答え押下時
@@ -3197,6 +3819,8 @@ var app = {
       app.qNArray.push(app.rQN)
       app.nextQuest();
     } else if(app.nRCount < 50) {
+
+
       app.newRandomNumber();
       // 同じ問題ばかり出てしまう問題
     }
@@ -3210,7 +3834,7 @@ var app = {
     if (flg) { //今まで出ていない数字
       app.hObject[status].push(app.rHO)
       return app.rHO
-    } else if(app.oRCount < 50) {
+    } else if(app.oRCount < 30) {
       app.newRandomHobbyNumber(hobbyResultArray, status);
       // 同じ問題ばかり出てしまう問題
     }
@@ -3399,21 +4023,35 @@ var app = {
         min = app.userStatusRank[key];
       };
     })
+    return app.getNextHobby(min);
+  },
+
+  getNextHobby: function(min) {
     var maxStatus = [];
     Object.keys(app.userStatusRank).forEach(function(key) {
       if (min === app.userStatusRank[key]) {
         maxStatus.push(key);
       };
     })
-    var r = app.random(maxStatus); //どのステータスを基準にするかランダム選択
-    var maxStatus = maxStatus[r];
-    var hobbyRankArray = app.hobbyRankArray[min];
-    var hobbyResultArray;
-    Object.keys(hobbyRankArray).forEach(function(key) {
-      hobbyResultArray = hobbyRankArray[key][maxStatus];
-    })
-    var r = app.newRandomHobbyNumber(hobbyResultArray, maxStatus);  //選ばれたステータスの中で趣味をランダム選択
-    return hobbyResultArray[r];
+    if (typeof maxStatus !== 'undefined') {
+      var r = app.random(maxStatus); //どのステータスを基準にするかランダム選択
+      var maxStatus = maxStatus[r];
+      var hobbyRankArray = app.hobbyRankArray[min + 2];
+      var hobbyResultArray;
+      Object.keys(hobbyRankArray).forEach(function(key) {
+        hobbyResultArray = hobbyRankArray[key][maxStatus];
+      })
+      if (typeof maxStatus === 'undefined') {
+        return 0
+      }
+      var r = app.newRandomHobbyNumber(hobbyResultArray, maxStatus);  //選ばれたステータスの中で趣味をランダム選択
+      if(typeof r === "undefined" && min !== -2) {
+        min -= 1;
+        app.getNextHobby(min)
+      }
+      return hobbyResultArray[r]
+    }
+    return 0
   },
 
   // ------------------------------- マッチ度を変更 -------------------------------------

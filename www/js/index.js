@@ -3586,6 +3586,53 @@ module.exports={
             }
           }
         ]
+      },
+      {
+        "ask": "早寝早起きは得意？",
+        "choise": [
+          {
+            "text": "苦手",
+            "status": {
+              "sociability": 0,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": -1,
+              "art": 0,
+              "sport": -1,
+              "it": 0,
+              "margin": -2,
+              "costPerformance": -1
+            }
+          },
+          {
+            "text": "たまになら",
+            "status": {
+              "sociability": 0,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 1,
+              "art": 0,
+              "sport": 0,
+              "it": 0,
+              "margin": 1,
+              "costPerformance": 1
+            }
+          },
+          {
+            "text": "得意",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 2,
+              "art": 1,
+              "sport": 0,
+              "it": 0,
+              "margin": 2,
+              "costPerformance": 2
+            }
+          }
+        ]
       }
     ]
   }
@@ -3638,6 +3685,7 @@ var app = {
   condidateLinks: document.querySelectorAll('.js-condidate-link'),
   hobbyItems: document.querySelectorAll('.js-hobby-item'),
   hobbyDescs: document.querySelectorAll('.js-hobby-desc'),
+  hobbySearchs: document.querySelectorAll('.js-hobby-search'),
   hobbyLinks: document.querySelectorAll('.js-hobby-link'),
   hobbyList: document.querySelectorAll('.js-hobby-list')[0],
 
@@ -3745,6 +3793,9 @@ var app = {
       e.addEventListener('click', function(ev, ix) {
         questArea[0].classList.add('js-none');
         app.hobbyDescs.forEach(function(e, i) {
+          e.classList.remove('js-none');
+        })
+        app.hobbySearchs.forEach(function(e, i) {
           e.classList.remove('js-none');
         })
         back[0].classList.remove('js-none');
@@ -3880,6 +3931,8 @@ var app = {
         hobbyArray.push(hobby);
         app.hobbyLinks[i].querySelectorAll('.js-hobby-text')[0].innerText = hobby.name;
         app.hobbyDescs[i].innerText = hobby.status.text
+        app.hobbySearchs[i].innerText = hobby.name + "を始めてみる"
+        app.hobbySearchs[i].setAttribute('href', `https://www.google.co.jp/search?q=${hobby.name} 始め方`)
         app.hobbyItems[i].classList.remove('js-none');
       }
     }

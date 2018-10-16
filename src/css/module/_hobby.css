@@ -2,7 +2,7 @@
   background-color: #fff;
   border-top: 1px solid #e6e6e6;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
   transition: opacity 1s;
   opacity: 0;
   max-height: 0;
@@ -16,7 +16,11 @@
 
   &__item {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+
+    &:last-of-type {
+      margin-bottom: 10px;
+    }
   }
 
   &__link {
@@ -24,9 +28,9 @@
     border: 1px solid #000;
     box-shadow: 0 2px 4px #e6e6e6;
     display: inline-block;
-    font-size: 14px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 13px;
     width: 90%;
     position: relative;
     transition: .2s;
@@ -62,26 +66,29 @@
   }
 
   &__desc {
-    border-bottom: 1px solid #e6e6e6;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.4;
     text-align: left;
     width: 90%;
     margin: 5px auto;
-    padding-bottom: 5px;
+  }
+
+  &__search {
+    font-size: 14px;
   }
 
   &__resetButton {
     display: flex;
     justify-content: flex-end;
-    margin-right: 5%;
+    padding-top: 10px;
+    border-top: 1px solid #e6e6e6;
   }
 
   &__button {
     border: 1px solid #000;
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
