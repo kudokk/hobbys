@@ -38,7 +38,6 @@
     <body>
       <div class="start js-main">
         <div class="start__app">
-          <img src="" alt="">
           <h1>趣味 診断</h1>
         </div>
         <div id="deviceready" class="blink js-start">
@@ -49,6 +48,9 @@
         <div class="quest">
           <img src="./img/icon/q.png" alt="" class="quest__img" height="25" width="25">
           <h2 class="quest__text js-questText"></h2>
+          <div class="quest__matchWrap">
+            <div class="quest__match js-questMatch">0<span class="quest__matchPer">%</span></div>
+          </div>
         </div>
         <div class="condidate">
           <h2 class="condidate__title"><img src="./img/icon/a.png" alt="" height="20" width="20">...</h2>
@@ -74,17 +76,28 @@
           <h2 class="hobby__title">オススメの趣味は...</h2>
           <ol class="hobby__list js-hobby-list">
             <li class="hobby__item js-hobby-item js-none">
-              <span class="hobby__link js-hobby-link">映画・ドラマ鑑賞</span>
+              <div class="hobby__link js-hobby-link">
+                <span class="hobby__text js-hobby-text">映画・ドラマ鑑賞<span>
+              </div>
               <div class="hobby__desc js-hobby-desc js-none"></div>
+              <a href="#" class="hobby__search js-hobby-search js-none">
+                <img src="./img/icon/icon_search.png" alt="" class="hobby__searchIcon">
+              </a>
             </li>
             <li class="hobby__item js-hobby-item js-none">
-              <span class="hobby__link js-hobby-link">パラグライダー・パラセーリング・スカイダイビング</span>
+              <div class="hobby__link js-hobby-link">
+                <span class="hobby__text js-hobby-text">映画・ドラマ鑑賞<span>
+              </div>
               <div class="hobby__desc js-hobby-desc js-none"></div>
+              <a href="#" class="hobby__search js-hobby-search js-none">
+                <img src="./img/icon/icon_search.png" alt="" class="hobby__searchIcon">
+              </a>
             </li>
           </ol>
         </div>
         <div class="hobby__resetButton">
-          <span class="hobby__reset">やり<br>直す</span>
+          <span class="hobby__button mg16r js-reset">やり<br>直す</span>
+          <span class="hobby__button mg20r js-none js-back">戻る</span>
         </div>
       </div>
         <script type="text/javascript" src="cordova.js"></script>

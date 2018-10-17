@@ -3834,6 +3834,9 @@ var app = {
       setTimeout((function() {
         hobbyArea.style.display = 'none';
       }), 1000)
+      app.hobbySearchs.forEach(function(e, i) {
+        e.classList.add('js-none');
+      })
       app.changeLinear(0);
       app.changeMtach(0);
     })
@@ -3845,7 +3848,7 @@ var app = {
         e.classList.add('js-none');
       })
       app.hobbySearchs.forEach(function(e, i) {
-        e.classList.remove('js-none');
+        e.classList.add('js-none');
       })
       if (!app.questEndFlg) {
         back[0].classList.add('js-none');

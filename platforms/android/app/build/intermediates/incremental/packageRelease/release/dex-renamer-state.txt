@@ -1,4 +1,4 @@
-#Wed Oct 17 22:32:03 JST 2018
+#Wed Oct 17 23:10:45 JST 2018
 base.0=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/transforms/dex/release/0
 renamed.0=classes.dex
 file.0=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/transforms/dex/release/0/classes.dex

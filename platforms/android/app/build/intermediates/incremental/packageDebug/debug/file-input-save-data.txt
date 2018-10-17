@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Oct 17 22:31:50 JST 2018
+#Wed Oct 17 23:07:14 JST 2018
 25.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_/res/drawable-port-xxhdpi-v4/screen.png
 25.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/res/debug/resources-debug.ap_
 22.set=ASSET

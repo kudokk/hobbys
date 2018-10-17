@@ -8,8 +8,15 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+      "PACKAGE_NAME": "io.cordova.hobbyapp"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "PACKAGE_NAME": "io.cordova.hobbyapp"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "io.cordova.hobbyapp"
+    }
+  }
 }

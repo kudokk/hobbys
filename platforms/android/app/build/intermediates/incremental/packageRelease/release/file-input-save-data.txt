@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Oct 17 22:32:03 JST 2018
+#Wed Oct 17 23:10:45 JST 2018
 25.file=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/assets/release/www/cordova-js-src/plugin/android/app.js
 25.base=/Users/kudoukazuki/dev/npm/hobbys/platforms/android/app/build/intermediates/assets/release
 22.set=ANDROID_RESOURCE

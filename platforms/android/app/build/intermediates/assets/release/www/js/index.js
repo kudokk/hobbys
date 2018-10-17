@@ -3633,6 +3633,67 @@ module.exports={
             }
           }
         ]
+      },
+      {
+        "ask": "いつも夕飯はどうしてる？",
+        "choise": [
+          {
+            "text": "いつも誰かに作ってもらってる",
+            "status": {
+              "sociability": 1,
+              "collect": -1,
+              "multiPlay": 2,
+              "selfPolishing": -1,
+              "art": -1,
+              "sport": 0,
+              "it": 0,
+              "margin": 1,
+              "costPerformance": 2
+            }
+          },
+          {
+            "text": "いつも自分で作る",
+            "status": {
+              "sociability": 2,
+              "collect": 2,
+              "multiPlay": 0,
+              "selfPolishing": 2,
+              "art": 2,
+              "sport": 0,
+              "it": 0,
+              "margin": -1,
+              "costPerformance": 2
+            }
+          },
+          {
+            "text": "たまに自分で作る",
+            "status": {
+              "sociability": 0,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 1,
+              "art": 0,
+              "sport": 0,
+              "it": 0,
+              "margin": 1,
+              "costPerformance": 1
+            }
+          },
+          {
+            "text": "外食ばかり",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": -2,
+              "art": 1,
+              "sport": 0,
+              "it": 0,
+              "margin": 1,
+              "costPerformance": -1
+            }
+          }
+        ]
       }
     ]
   }
@@ -3773,6 +3834,9 @@ var app = {
       setTimeout((function() {
         hobbyArea.style.display = 'none';
       }), 1000)
+      app.hobbySearchs.forEach(function(e, i) {
+        e.classList.add('js-none');
+      })
       app.changeLinear(0);
       app.changeMtach(0);
     })
@@ -3784,7 +3848,7 @@ var app = {
         e.classList.add('js-none');
       })
       app.hobbySearchs.forEach(function(e, i) {
-        e.classList.remove('js-none');
+        e.classList.add('js-none');
       })
       if (!app.questEndFlg) {
         back[0].classList.add('js-none');
