@@ -77,6 +77,13 @@
     font-size: 14px;
   }
 
+  &__searchIcon {
+    width: 14px;
+    margin-right: 5px;
+    top: 2px;
+    position: relative;
+  }
+
   &__resetButton {
     display: flex;
     justify-content: flex-end;

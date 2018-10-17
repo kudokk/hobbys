@@ -3633,6 +3633,67 @@ module.exports={
             }
           }
         ]
+      },
+      {
+        "ask": "いつも夕飯はどうしてる？",
+        "choise": [
+          {
+            "text": "いつも誰かに作ってもらってる",
+            "status": {
+              "sociability": 1,
+              "collect": -1,
+              "multiPlay": 2,
+              "selfPolishing": -1,
+              "art": -1,
+              "sport": 0,
+              "it": 0,
+              "margin": 1,
+              "costPerformance": 2
+            }
+          },
+          {
+            "text": "いつも自分で作る",
+            "status": {
+              "sociability": 2,
+              "collect": 2,
+              "multiPlay": 0,
+              "selfPolishing": 2,
+              "art": 2,
+              "sport": 0,
+              "it": 0,
+              "margin": -1,
+              "costPerformance": 2
+            }
+          },
+          {
+            "text": "たまに自分で作る",
+            "status": {
+              "sociability": 0,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": 1,
+              "art": 0,
+              "sport": 0,
+              "it": 0,
+              "margin": 1,
+              "costPerformance": 1
+            }
+          },
+          {
+            "text": "外食ばかり",
+            "status": {
+              "sociability": 1,
+              "collect": 0,
+              "multiPlay": 0,
+              "selfPolishing": -2,
+              "art": 1,
+              "sport": 0,
+              "it": 0,
+              "margin": 1,
+              "costPerformance": -1
+            }
+          }
+        ]
       }
     ]
   }
@@ -3783,6 +3844,9 @@ var app = {
       app.hobbyDescs.forEach(function(e, i) {
         e.classList.add('js-none');
       })
+      app.hobbySearchs.forEach(function(e, i) {
+        e.classList.remove('js-none');
+      })
       if (!app.questEndFlg) {
         back[0].classList.add('js-none');
       }
@@ -3801,31 +3865,6 @@ var app = {
         back[0].classList.remove('js-none');
       })
     })
-    // 質問の答え押下時
-    for (j = 0, num = app.hobbyItems.length; j < num; j++) {
-      ripple = app.hobbyItems[j];
-      ripple.addEventListener('mousedown', function(e) {
-        ripple = this;//クリックされたボタンを取得
-        cover = document.createElement('span');//span作る
-        coversize = ripple.offsetWidth;//要素の幅を取得
-        loc = ripple.getBoundingClientRect();//絶対座標の取得
-        x = e.pageX - loc.left - window.pageXOffset - (coversize / 2);
-        y = e.pageY - loc.top - window.pageYOffset - (coversize / 2);
-        pos = 'top:' + y + 'px; left:' + x + 'px; height:' + coversize + 'px; width:' + coversize + 'px;';
-
-        //spanを追加
-        ripple.appendChild(cover);
-        cover.setAttribute('style', pos);
-        cover.setAttribute('class', 'rp-effect');//クラス名追加
-
-        //しばらくしたらspanを削除
-        setTimeout(function() {
-          var list = document.getElementsByClassName( "rp-effect" ) ;
-          for(var i =list.length-1;i>=0; i--){//末尾から順にすべて削除
-            list[i].parentNode.removeChild(list[i]);
-        }}, 2000)
-      });
-    }
   },
 
   nextQuest: function(r) {
@@ -3931,7 +3970,8 @@ var app = {
         hobbyArray.push(hobby);
         app.hobbyLinks[i].querySelectorAll('.js-hobby-text')[0].innerText = hobby.name;
         app.hobbyDescs[i].innerText = hobby.status.text
-        app.hobbySearchs[i].innerText = hobby.name + "を始めてみる"
+        app.hobbySearchs[i].innerHTML = "<span>" + hobby.name + "を始めてみる</span>"
+        app.hobbySearchs[i].insertAdjacentHTML('afterbegin', '<img src="./img/icon/icon_search.png" class="hobby__searchIcon">')
         app.hobbySearchs[i].setAttribute('href', `https://www.google.co.jp/search?q=${hobby.name} 始め方`)
         app.hobbyItems[i].classList.remove('js-none');
       }

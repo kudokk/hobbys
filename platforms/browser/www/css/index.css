@@ -281,6 +281,13 @@ border-spacing: 0;
     font-size: 14px;
   }
 
+ .hobby__searchIcon {
+    width: 14px;
+    margin-right: 5px;
+    top: 2px;
+    position: relative;
+  }
+
  .hobby__resetButton {
     display: -webkit-flex;
     display: flex;
